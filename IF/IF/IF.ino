@@ -19,20 +19,20 @@ void loop() {
   if (digitalRead(3) == 1) // AND Mode
   {
 
-    digitalWrite(1, HIGH);
-  }
-  else  //OR Mode
-  {
-    digitalWrite(1, LOW);
-  }
-
-  if (digitalRead(4) == 1) // AND Mode
-  {
-
     digitalWrite(0, HIGH);
   }
   else  //OR Mode
   {
     digitalWrite(0, LOW);
+  }
+
+  if (digitalRead(4) == 1) // AND Mode
+  {
+
+    digitalWrite(1, HIGH);
+  }
+  else  //OR Mode
+  {
+    digitalWrite(1, LOW);
   }
 }
