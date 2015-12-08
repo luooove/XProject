@@ -26,6 +26,7 @@ o2_Buzzer            蜂鸣器
 o3_Servo             舵机
 o4_PWM               脉宽调制
 o5_Display           数码管显示
+o6_MotorDriver       电机驱动
 
 
 
