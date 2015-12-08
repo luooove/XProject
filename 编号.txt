@@ -14,6 +14,9 @@ i3_Tilt              倾斜
 i4_Microphone        麦克风
 i5_Light             光线
 i6_SlideDimmer       滑动变阻器
+i7_Moisture          土壤湿度
+i8_InfraredReflective接近传感器
+
 
 
 
@@ -27,7 +30,8 @@ o3_Servo             舵机
 o4_PWM               脉宽调制
 o5_Display           数码管显示
 o6_MotorDriver       电机驱动
-
+o7_AnalogOut         模拟输出
+o8_Relay             继电器
 
 
 
@@ -43,6 +47,9 @@ p2_Power2            带控制芯片
 功能
 编号                 名称                          功能
 ________________________________________________________________
-F1_Not               非
-F2_OrAnd             与 或
-F3_Compare           比较器
+f1_Not               非
+f2_OrAnd             与 或
+f3_Compare           比较器
+F4_Delay             延时
+F5_Count             计数
+
