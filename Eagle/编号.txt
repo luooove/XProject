@@ -52,4 +52,4 @@ f2_OrAnd             与 或
 f3_Compare           比较器
 F4_Delay             延时
 F5_Count             计数
-
+f6_Pluse             脉冲
