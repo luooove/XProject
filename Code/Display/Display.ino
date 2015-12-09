@@ -1,40 +1,35 @@
-int data[] = {0xC0, 0xF9, 0xA4, 0xB0, 0x99, 0x92, 0x82, 0xF8, 0x80, 0x90};
-void Num_Send(int d, int w);
-void setup() {
+#define data 0
+#define clock 1
+#define com1 3
+#define com2 2
+void led_display(int,int);
+//int d[10]={0x81,0xf9,0x25,0x29,0x59,0xb,0x3,0xb9,0x1,0x9};
+int d[10]={0x0c,0x3f,0x45,0x25,0x36,0xa4,0x84,0x3d,0x04,0x24};
+int i=0,num=0;
+void setup() 
+{
   // put your setup code here, to run once:
-  pinMode(4, INPUT);
-  pinMode(0, OUTPUT);
-  pinMode(1, OUTPUT);
-  pinMode(2, OUTPUT);
-  pinMode(3, OUTPUT);
-  digitalWrite(0, LOW);
-  digitalWrite(1, LOW);
-  digitalWrite(2, LOW);
-  digitalWrite(3, LOW);
-
+  pinMode(clock, OUTPUT); // make the clock pin an output
+  pinMode(data , OUTPUT); // make the data pin an output3
+  pinMode(com1 , OUTPUT); // make the data pin an output3
+  pinMode(com2 , OUTPUT); // make the data pin an output3
 }
 
-void loop() {
+void loop() 
+{
   // put your main code here, to run repeatedly:
-  int a = analogRead(2);
-  a = a * 100 / 5;
-  Num_Send(a & 0x01, 1);
-  Num_Send((a >> 1) & 0x01, 2);
-}
-void Num_Send(int d, int w) {
-  if (w == 1) digitalWrite(2, HIGH);
-  else digitalWrite(3, HIGH);
+ if(i>=70){
+   num=int(analogRead(2)*25/256);  
+   i=0;}
+ i++;
+  led_display(num%10,com1); 
+  led_display(num/10,com2);
 
-  for (int i = 0; i < 8; i++) {
-    digitalWrite(1, LOW);
-    if (data[d] & 0x01 == 0x01) digitalWrite(0, HIGH);
-    else digitalWrite(0, LOW);
-    data[d] = data[d] >> 1;
-    delay(1);
-    digitalWrite(1, HIGH);
-    
+}
+void led_display(int num,int com){ 
+  shiftOut(data, clock, LSBFIRST, d[num]);
+  digitalWrite(com,HIGH);
+  delay(10);
+  digitalWrite(com,LOW);
 
   }
-  if (w == 1) digitalWrite(2, LOW);
-  else digitalWrite(3, LOW);
-}
