@@ -2032,6 +2032,13 @@ DPDT SMT slide switch, AYZ0202, SWCH-08179</description>
 <pinref part="LED2" gate="G$1" pin="A"/>
 </segment>
 </net>
+<net name="PWM" class="0">
+<segment>
+<pinref part="IC1" gate="G$1" pin="PB0/PCINT0/AIN0/OC0A/MOSI"/>
+<wire x1="-20.32" y1="7.62" x2="-38.1" y2="7.62" width="0.1524" layer="91"/>
+<label x="-38.1" y="7.62" size="1.778" layer="95"/>
+</segment>
+</net>
 <net name="CONTROL" class="0">
 <segment>
 <pinref part="IC1" gate="G$1" pin="PB4/PCINT4/ADC2"/>
@@ -2072,11 +2079,6 @@ DPDT SMT slide switch, AYZ0202, SWCH-08179</description>
 <wire x1="40.64" y1="-45.72" x2="53.34" y2="-45.72" width="0.1524" layer="91"/>
 <label x="43.18" y="-45.72" size="1.778" layer="95"/>
 </segment>
-<segment>
-<pinref part="IC1" gate="G$1" pin="PB2/PCINT2/SCK/ADC1/T0"/>
-<wire x1="-20.32" y1="2.54" x2="-38.1" y2="2.54" width="0.1524" layer="91"/>
-<label x="-38.1" y="2.54" size="1.778" layer="95"/>
-</segment>
 </net>
 <net name="IN" class="0">
 <segment>
@@ -2095,11 +2097,6 @@ DPDT SMT slide switch, AYZ0202, SWCH-08179</description>
 <pinref part="H5" gate="G$1" pin="1"/>
 <wire x1="71.12" y1="5.08" x2="83.82" y2="5.08" width="0.1524" layer="91"/>
 <label x="76.2" y="5.08" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="IC1" gate="G$1" pin="PB0/PCINT0/AIN0/OC0A/MOSI"/>
-<wire x1="-20.32" y1="7.62" x2="-38.1" y2="7.62" width="0.1524" layer="91"/>
-<label x="-38.1" y="7.62" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>

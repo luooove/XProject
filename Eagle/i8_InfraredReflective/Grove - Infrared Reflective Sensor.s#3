@@ -5666,7 +5666,7 @@ type 0309, grid 2.5 mm</description>
 <wire x1="140.97" y1="71.12" x2="140.97" y2="68.58" width="0.1524" layer="91"/>
 <wire x1="140.97" y1="74.93" x2="140.97" y2="71.12" width="0.1524" layer="91"/>
 <junction x="140.97" y="71.12"/>
-<label x="148.59" y="71.12" size="1.778" layer="95"/>
+<label x="148.59" y="68.58" size="1.778" layer="95"/>
 <pinref part="U1" gate="G$1" pin="OUT1"/>
 <pinref part="D1" gate="LED" pin="-"/>
 <wire x1="158.75" y1="68.58" x2="140.97" y2="68.58" width="0.1524" layer="91"/>

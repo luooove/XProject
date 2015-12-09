@@ -4535,7 +4535,6 @@ design rules under a new name.</description>
 <via x="85.6488" y="55.372" extent="1-16" drill="0.3048"/>
 <via x="74.1172" y="49.1236" extent="1-16" drill="0.3048"/>
 <via x="70.0532" y="49.1236" extent="1-16" drill="0.3048"/>
-<wire x1="74.1172" y1="49.1236" x2="70.0532" y2="49.1236" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$1">
 <contactref element="LED1" pad="C"/>
@@ -4579,7 +4578,6 @@ design rules under a new name.</description>
 <wire x1="64.77" y1="67.31" x2="64.77" y2="53.594" width="0.6096" layer="1"/>
 <wire x1="64.77" y1="53.594" x2="66.548" y2="51.816" width="0.6096" layer="1"/>
 <wire x1="66.548" y1="51.816" x2="74.422" y2="51.816" width="0.6096" layer="1"/>
-<wire x1="75.555" y1="52.949" x2="75.692" y2="53.086" width="0" layer="19" extent="1-16"/>
 <wire x1="75.555" y1="55.766" x2="75.555" y2="52.949" width="0.6096" layer="1"/>
 <wire x1="75.555" y1="52.949" x2="74.422" y2="51.816" width="0.6096" layer="1"/>
 </signal>
@@ -4597,7 +4595,6 @@ design rules under a new name.</description>
 <contactref element="IC2" pad="5"/>
 <wire x1="93.98" y1="55.88" x2="89.408" y2="55.88" width="0.8128" layer="1"/>
 <wire x1="89.408" y1="55.88" x2="84.214" y2="61.074" width="0.8128" layer="1"/>
-<wire x1="84.214" y1="61.074" x2="84.074" y2="61.214" width="0" layer="19" extent="1-16"/>
 <wire x1="78.105" y1="61.074" x2="84.214" y2="61.074" width="0.8128" layer="1"/>
 </signal>
 </signals>

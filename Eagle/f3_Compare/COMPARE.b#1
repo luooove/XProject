@@ -4046,6 +4046,15 @@
 <rectangle x1="86.5505" y1="48.5013" x2="86.6267" y2="48.5267" layer="21"/>
 <rectangle x1="77.1017" y1="48.5267" x2="77.1271" y2="48.5521" layer="21"/>
 <text x="0" y="-0.127" size="0.0508" layer="21" font="vector">C:/Users/Xiangzi/Desktop/Ãû³Æ/±ȽÏÄ£¿é.bmp</text>
+<text x="90.3224" y="61.3156" size="0.8128" layer="22" rot="MR180">GND</text>
+<text x="90.3224" y="58.7756" size="0.8128" layer="22" rot="MR180">VCC</text>
+<text x="90.3224" y="56.2356" size="0.8128" layer="22" rot="MR180">SIG</text>
+<text x="59.2836" y="63.3984" size="0.8128" layer="22" rot="MR90">GND</text>
+<text x="61.8236" y="63.3984" size="0.8128" layer="22" rot="MR90">VCC</text>
+<text x="64.3636" y="63.3984" size="0.8128" layer="22" rot="MR90">SIG</text>
+<text x="65.278" y="53.848" size="0.8128" layer="22" rot="MR270">GND</text>
+<text x="62.738" y="53.848" size="0.8128" layer="22" rot="MR270">VCC</text>
+<text x="60.198" y="53.848" size="0.8128" layer="22" rot="MR270">SIG</text>
 </plain>
 <libraries>
 <library name="atmel">

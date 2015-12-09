@@ -1158,6 +1158,92 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 </deviceset>
 </devicesets>
 </library>
+<library name="pot">
+<description>&lt;b&gt;Potentiometers&lt;/b&gt;&lt;p&gt;
+Beckman, Copal, Piher, Spectrol, Schukat&lt;p&gt;
+&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
+<packages>
+<package name="3RP/1610N">
+<description>&lt;b&gt;16mm Potentiometer&lt;/b&gt; one level&lt;p&gt;
+Source: http://www.alphapotentiometers.net/html/16mm_pot_2.html</description>
+<wire x1="-8.35" y1="-3.7" x2="8.35" y2="-3.7" width="0.2032" layer="21"/>
+<wire x1="-8.35" y1="-5.7" x2="-7.25" y2="-5.7" width="0.2032" layer="21"/>
+<wire x1="-8.35" y1="-3.7" x2="-8.35" y2="-5.7" width="0.2032" layer="21"/>
+<wire x1="-7.25" y1="-5.7" x2="-7.25" y2="-3.8" width="0.2032" layer="21"/>
+<wire x1="-8.35" y1="-1.7" x2="8.35" y2="-1.7" width="0.2032" layer="21"/>
+<wire x1="-8.35" y1="5.4" x2="8.35" y2="5.4" width="0.2032" layer="21"/>
+<wire x1="-2.9" y1="-10.2" x2="-2.9" y2="-13.7" width="0.2032" layer="21"/>
+<wire x1="2.9" y1="-13.7" x2="2.9" y2="-10.2" width="0.2032" layer="21"/>
+<wire x1="-3.4" y1="-3.8" x2="-3.4" y2="-9.9" width="0.2032" layer="21"/>
+<wire x1="-3.4" y1="-9.9" x2="-2.9" y2="-10.2" width="0.2032" layer="21"/>
+<wire x1="2.9" y1="-10.2" x2="3.4" y2="-9.9" width="0.2032" layer="21"/>
+<wire x1="3.4" y1="-9.9" x2="3.4" y2="-3.8" width="0.2032" layer="21"/>
+<wire x1="-2.9" y1="-10.2" x2="2.9" y2="-10.2" width="0.2032" layer="21"/>
+<wire x1="-2.9" y1="-13.7" x2="2.9" y2="-13.7" width="0.2032" layer="21"/>
+<wire x1="-8.35" y1="-3.7" x2="-8.35" y2="5.4" width="0.2032" layer="21"/>
+<wire x1="8.35" y1="-3.7" x2="8.35" y2="5.4" width="0.2032" layer="21"/>
+<wire x1="-3.3" y1="-9.525" x2="3.3" y2="-9" width="0.2032" layer="21"/>
+<wire x1="-3.3" y1="-9.025" x2="3.3" y2="-8.5" width="0.2032" layer="21"/>
+<wire x1="-3.3" y1="-8.525" x2="3.3" y2="-8" width="0.2032" layer="21"/>
+<wire x1="-3.3" y1="-8.025" x2="3.3" y2="-7.5" width="0.2032" layer="21"/>
+<wire x1="-3.3" y1="-7.525" x2="3.3" y2="-7" width="0.2032" layer="21"/>
+<wire x1="-3.3" y1="-7.025" x2="3.3" y2="-6.5" width="0.2032" layer="21"/>
+<wire x1="-3.3" y1="-6.525" x2="3.3" y2="-6" width="0.2032" layer="21"/>
+<wire x1="-3.3" y1="-6.025" x2="3.3" y2="-5.5" width="0.2032" layer="21"/>
+<wire x1="-3.3" y1="-5.525" x2="3.3" y2="-5" width="0.2032" layer="21"/>
+<wire x1="-3.3" y1="-5.025" x2="3.3" y2="-4.5" width="0.2032" layer="21"/>
+<wire x1="-3.3" y1="-4.525" x2="3.3" y2="-4" width="0.2032" layer="21"/>
+<wire x1="-3.075" y1="-10.025" x2="3.3" y2="-9.5" width="0.2032" layer="21"/>
+<pad name="1" x="-5" y="0" drill="1.2" diameter="2.1844"/>
+<pad name="2" x="0" y="0" drill="1.2" diameter="2.1844"/>
+<pad name="3" x="5" y="0" drill="1.2" diameter="2.1844"/>
+<text x="-8.255" y="5.715" size="1.27" layer="25">&gt;NAME</text>
+<text x="-3.175" y="2.54" size="1.27" layer="27">&gt;VALUE</text>
+</package>
+</packages>
+<symbols>
+<symbol name="POT_EU-">
+<wire x1="-0.762" y1="2.54" x2="-0.762" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="0.762" y1="-2.54" x2="0.762" y2="2.54" width="0.254" layer="94"/>
+<wire x1="2.54" y1="0" x2="1.651" y2="0" width="0.1524" layer="94"/>
+<wire x1="1.651" y1="0" x2="-1.8796" y2="1.7526" width="0.1524" layer="94"/>
+<wire x1="0.762" y1="2.54" x2="-0.762" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-0.762" y1="-2.54" x2="0.762" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-2.1597" y1="1.2939" x2="-3.1989" y2="2.4495" width="0.1524" layer="94"/>
+<wire x1="-3.1989" y1="2.4495" x2="-1.7018" y2="2.2352" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="-2.54" x2="-2.54" y2="-0.508" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="-0.508" x2="-3.048" y2="-1.524" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="-0.508" x2="-2.032" y2="-1.524" width="0.1524" layer="94"/>
+<wire x1="-2.1597" y1="1.2939" x2="-1.7018" y2="2.2352" width="0.1524" layer="94"/>
+<text x="-5.969" y="-3.81" size="1.778" layer="95" rot="R90">&gt;NAME</text>
+<text x="-3.81" y="-3.81" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
+<pin name="A" x="0" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
+<pin name="E" x="0" y="5.08" visible="pad" length="short" direction="pas" rot="R270"/>
+<pin name="S" x="5.08" y="0" visible="pad" length="short" direction="pas" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="3RP/1610N" prefix="R" uservalue="yes">
+<description>&lt;b&gt;16mm Potentiometer&lt;/b&gt; one level&lt;p&gt;
+Source: http://www.alphapotentiometers.net/html/16mm_pot_2.html</description>
+<gates>
+<gate name="G$1" symbol="POT_EU-" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="3RP/1610N">
+<connects>
+<connect gate="G$1" pin="A" pad="1"/>
+<connect gate="G$1" pin="E" pad="3"/>
+<connect gate="G$1" pin="S" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 <library name="supply2">
 <description>&lt;b&gt;Supply Symbols&lt;/b&gt;&lt;p&gt;
 GND, VCC, 0V, +5V, -5V, etc.&lt;p&gt;
@@ -2564,14 +2650,6 @@ DPDT SMT slide switch, AYZ0202, SWCH-08179</description>
 <vertex x="0.299" y="-0.7218"/>
 </polygon>
 </package>
-<package name="POT_CIRCLE">
-<pad name="P$1" x="-4" y="0" drill="1.2" shape="square"/>
-<pad name="P$2" x="0" y="0" drill="1.2"/>
-<pad name="P$3" x="4" y="0" drill="1.2"/>
-<circle x="0" y="8" radius="8" width="0.127" layer="21"/>
-<hole x="-5" y="10" drill="1.2"/>
-<hole x="5" y="10" drill="1.2"/>
-</package>
 </packages>
 <symbols>
 <symbol name="XMAKERLOGO2">
@@ -2586,23 +2664,6 @@ DPDT SMT slide switch, AYZ0202, SWCH-08179</description>
 </symbol>
 <symbol name="OPENHARDWARE">
 <text x="-10.16" y="0" size="1.27" layer="94" font="vector">OPENHARDWARE</text>
-</symbol>
-<symbol name="POT_CIRCLE">
-<wire x1="-0.762" y1="2.54" x2="-0.762" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="0.762" y1="-2.54" x2="0.762" y2="2.54" width="0.254" layer="94"/>
-<wire x1="2.54" y1="0" x2="1.651" y2="0" width="0.1524" layer="94"/>
-<wire x1="1.651" y1="0" x2="-1.8796" y2="1.7526" width="0.1524" layer="94"/>
-<wire x1="0.762" y1="2.54" x2="-0.762" y2="2.54" width="0.254" layer="94"/>
-<wire x1="-0.762" y1="-2.54" x2="0.762" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="-2.1597" y1="1.2939" x2="-3.1989" y2="2.4495" width="0.1524" layer="94"/>
-<wire x1="-3.1989" y1="2.4495" x2="-1.7018" y2="2.2352" width="0.1524" layer="94"/>
-<wire x1="-2.1597" y1="1.2939" x2="-1.7018" y2="2.2352" width="0.1524" layer="94"/>
-<text x="-5.969" y="-3.81" size="1.778" layer="95" rot="R90">&gt;NAME</text>
-<text x="-3.81" y="-3.81" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
-<pin name="3" x="0" y="-5.08" visible="off" length="short" direction="pas" rot="R90"/>
-<pin name="1" x="0" y="5.08" visible="off" length="short" direction="pas" rot="R270"/>
-<pin name="2" x="5.08" y="0" visible="off" length="short" direction="pas" rot="R180"/>
-<circle x="-2.54" y="-2.54" radius="0.915809375" width="0.254" layer="94"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -2642,23 +2703,6 @@ DPDT SMT slide switch, AYZ0202, SWCH-08179</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="POL_CIRCLE">
-<gates>
-<gate name="G$1" symbol="POT_CIRCLE" x="2.54" y="0"/>
-</gates>
-<devices>
-<device name="" package="POT_CIRCLE">
-<connects>
-<connect gate="G$1" pin="1" pad="P$1"/>
-<connect gate="G$1" pin="2" pad="P$2"/>
-<connect gate="G$1" pin="3" pad="P$3"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
 </devicesets>
 </library>
 </libraries>
@@ -2675,6 +2719,7 @@ DPDT SMT slide switch, AYZ0202, SWCH-08179</description>
 <part name="H1" library="HEAD_LOCK" deviceset="HEAD_LOCK" device=""/>
 <part name="H2" library="HEAD_LOCK" deviceset="HEAD_LOCK" device=""/>
 <part name="C2" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
+<part name="R2" library="pot" deviceset="3RP/1610N" device=""/>
 <part name="SUPPLY2" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY9" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY10" library="supply2" deviceset="GND" device=""/>
@@ -2697,7 +2742,6 @@ DPDT SMT slide switch, AYZ0202, SWCH-08179</description>
 <part name="U$2" library="Xmaker_yuhui" deviceset="DIMENSION1" device=""/>
 <part name="U$3" library="Xmaker_yuhui" deviceset="OPENHARDWARE" device=""/>
 <part name="SUPPLY1" library="supply2" deviceset="VCC" device=""/>
-<part name="U$4" library="Xmaker_yuhui" deviceset="POL_CIRCLE" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -2711,6 +2755,7 @@ DPDT SMT slide switch, AYZ0202, SWCH-08179</description>
 <instance part="H1" gate="G$1" x="-88.9" y="-2.54"/>
 <instance part="H2" gate="G$1" x="58.42" y="-5.08"/>
 <instance part="C2" gate="G$1" x="-27.94" y="35.56"/>
+<instance part="R2" gate="G$1" x="-15.24" y="-40.64"/>
 <instance part="SUPPLY2" gate="GND" x="-15.24" y="-48.26"/>
 <instance part="SUPPLY9" gate="GND" x="-27.94" y="-10.16"/>
 <instance part="SUPPLY10" gate="GND" x="76.2" y="-5.08"/>
@@ -2733,12 +2778,15 @@ DPDT SMT slide switch, AYZ0202, SWCH-08179</description>
 <instance part="U$2" gate="G$1" x="-48.26" y="-27.94"/>
 <instance part="U$3" gate="G$1" x="-48.26" y="-38.1"/>
 <instance part="SUPPLY1" gate="G$1" x="30.48" y="-22.86"/>
-<instance part="U$4" gate="G$1" x="-15.24" y="-40.64"/>
 </instances>
 <busses>
 </busses>
 <nets>
 <net name="GND" class="0">
+<segment>
+<pinref part="R2" gate="G$1" pin="A"/>
+<pinref part="SUPPLY2" gate="GND" pin="GND"/>
+</segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="GND"/>
 <pinref part="SUPPLY9" gate="GND" pin="GND"/>
@@ -2771,10 +2819,6 @@ DPDT SMT slide switch, AYZ0202, SWCH-08179</description>
 <wire x1="33.02" y1="-48.26" x2="30.48" y2="-48.26" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="-48.26" x2="30.48" y2="-53.34" width="0.1524" layer="91"/>
 </segment>
-<segment>
-<pinref part="SUPPLY2" gate="GND" pin="GND"/>
-<pinref part="U$4" gate="G$1" pin="3"/>
-</segment>
 </net>
 <net name="VCC" class="0">
 <segment>
@@ -2792,6 +2836,10 @@ DPDT SMT slide switch, AYZ0202, SWCH-08179</description>
 <pinref part="SUPPLY12" gate="G$1" pin="VCC"/>
 <pinref part="H1" gate="G$1" pin="2"/>
 <wire x1="-71.12" y1="5.08" x2="-76.2" y2="5.08" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="R2" gate="G$1" pin="E"/>
+<pinref part="SUPPLY15" gate="G$1" pin="VCC"/>
 </segment>
 <segment>
 <pinref part="SUPPLY16" gate="G$1" pin="VCC"/>
@@ -2813,10 +2861,6 @@ DPDT SMT slide switch, AYZ0202, SWCH-08179</description>
 <wire x1="30.48" y1="-25.4" x2="30.48" y2="-27.94" width="0.1524" layer="91"/>
 <pinref part="SUPPLY1" gate="G$1" pin="VCC"/>
 </segment>
-<segment>
-<pinref part="SUPPLY15" gate="G$1" pin="VCC"/>
-<pinref part="U$4" gate="G$1" pin="1"/>
-</segment>
 </net>
 <net name="CONTROL" class="0">
 <segment>
@@ -2826,8 +2870,8 @@ DPDT SMT slide switch, AYZ0202, SWCH-08179</description>
 <label x="-10.16" y="-40.64" size="1.778" layer="95"/>
 </segment>
 <segment>
+<pinref part="R2" gate="G$1" pin="S"/>
 <wire x1="-10.16" y1="-40.64" x2="2.54" y2="-40.64" width="0.1524" layer="91"/>
-<pinref part="U$4" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$2" class="0">

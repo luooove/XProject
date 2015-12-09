@@ -1927,23 +1927,21 @@ DPDT SMT slide switch, AYZ0202, SWCH-08179</description>
 <sheet>
 <plain>
 <frame x1="-119.38" y1="-81.28" x2="96.52" y2="101.6" columns="8" rows="5" layer="91"/>
-<text x="22.86" y="-50.8" size="1.778" layer="91">1秒</text>
-<text x="20.32" y="-33.02" size="1.778" layer="91">0.1秒</text>
 </plain>
 <instances>
 <instance part="IC1" gate="G$1" x="0" y="-2.54"/>
 <instance part="H4" gate="G$1" x="-88.9" y="-2.54"/>
 <instance part="H5" gate="G$1" x="58.42" y="-5.08"/>
 <instance part="C2" gate="G$1" x="-27.94" y="35.56"/>
-<instance part="R2" gate="G$1" x="-15.24" y="-40.64"/>
-<instance part="SUPPLY2" gate="GND" x="-15.24" y="-48.26"/>
+<instance part="R2" gate="G$1" x="-2.54" y="-38.1"/>
+<instance part="SUPPLY2" gate="GND" x="-2.54" y="-45.72"/>
 <instance part="SUPPLY9" gate="GND" x="-27.94" y="-10.16"/>
 <instance part="SUPPLY10" gate="GND" x="76.2" y="-5.08"/>
 <instance part="SUPPLY11" gate="GND" x="-71.12" y="-2.54"/>
 <instance part="SUPPLY12" gate="G$1" x="-68.58" y="5.08" rot="R270"/>
 <instance part="SUPPLY13" gate="G$1" x="78.74" y="2.54" rot="R270"/>
 <instance part="SUPPLY14" gate="G$1" x="-30.48" y="15.24"/>
-<instance part="SUPPLY15" gate="G$1" x="-15.24" y="-33.02"/>
+<instance part="SUPPLY15" gate="G$1" x="-2.54" y="-30.48"/>
 <instance part="SUPPLY16" gate="G$1" x="-27.94" y="45.72"/>
 <instance part="SUPPLY17" gate="GND" x="-27.94" y="27.94"/>
 <instance part="SUPPLY18" gate="G$1" x="-35.56" y="-5.08" rot="R90"/>
@@ -2039,11 +2037,11 @@ DPDT SMT slide switch, AYZ0202, SWCH-08179</description>
 <pinref part="IC1" gate="G$1" pin="PB4/PCINT4/ADC2"/>
 <wire x1="-20.32" y1="-2.54" x2="-38.1" y2="-2.54" width="0.1524" layer="91"/>
 <label x="-38.1" y="-2.54" size="1.778" layer="95"/>
-<label x="-10.16" y="-40.64" size="1.778" layer="95"/>
+<label x="2.54" y="-38.1" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="R2" gate="G$1" pin="S"/>
-<wire x1="-10.16" y1="-40.64" x2="2.54" y2="-40.64" width="0.1524" layer="91"/>
+<wire x1="2.54" y1="-38.1" x2="15.24" y2="-38.1" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$2" class="0">

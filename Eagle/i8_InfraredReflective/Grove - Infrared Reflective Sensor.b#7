@@ -111,7 +111,6 @@
 <text x="6.731" y="30.226" size="0.8128" layer="21" font="vector" ratio="10" rot="R180">VCC</text>
 <text x="6.731" y="27.686" size="0.8128" layer="21" font="vector" ratio="10" rot="R180">GND</text>
 <text x="18.923" y="22.86" size="1.27" layer="22" font="vector" ratio="12" rot="MR0">Sensor</text>
-<text x="11.43" y="22.86" size="0.8128" layer="22" font="vector" ratio="12" rot="MR0">V1.0</text>
 <text x="18.923" y="24.765" size="1.27" layer="22" font="vector" ratio="12" rot="MR0">Infrared Reflective</text>
 </plain>
 <libraries>

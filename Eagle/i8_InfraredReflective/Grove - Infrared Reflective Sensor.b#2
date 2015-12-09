@@ -152,9 +152,9 @@
 </layers>
 <board>
 <plain>
-<text x="6.604" y="32.639" size="0.8128" layer="21" font="vector" ratio="10" rot="R180">SIG</text>
-<text x="6.731" y="30.226" size="0.8128" layer="21" font="vector" ratio="10" rot="R180">VCC</text>
-<text x="6.731" y="27.686" size="0.8128" layer="21" font="vector" ratio="10" rot="R180">GND</text>
+<text x="4.4196" y="32.6898" size="0.8128" layer="22" font="vector" ratio="10" rot="MR180">SIG</text>
+<text x="4.4196" y="30.4038" size="0.8128" layer="22" font="vector" ratio="10" rot="MR180">VCC</text>
+<text x="4.5974" y="27.7622" size="0.8128" layer="22" font="vector" ratio="10" rot="MR180">GND</text>
 <text x="18.923" y="22.86" size="1.27" layer="22" font="vector" ratio="12" rot="MR0">Sensor</text>
 <text x="18.923" y="24.765" size="1.27" layer="22" font="vector" ratio="12" rot="MR0">Infrared Reflective</text>
 <rectangle x1="5.6515" y1="20.9931" x2="5.6769" y2="21.0185" layer="21"/>
@@ -878,7 +878,6 @@
 <rectangle x1="4.7625" y1="22.5425" x2="4.8641" y2="22.5679" layer="21"/>
 <rectangle x1="5.4483" y1="22.5425" x2="5.5753" y2="22.5679" layer="21"/>
 <rectangle x1="6.1087" y1="22.5425" x2="6.2357" y2="22.5679" layer="21"/>
-<text x="0" y="-0.127" size="0.0508" layer="21" font="vector">C:/Users/Xiangzi/Desktop/Ãû³Æ/ѭ¼£ģ¿é.bmp</text>
 </plain>
 <libraries>
 <library name="rcl">
