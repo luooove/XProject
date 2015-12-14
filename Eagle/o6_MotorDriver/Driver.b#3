@@ -5385,10 +5385,10 @@ design rules under a new name.</description>
 <contactref element="U$2" pad="7"/>
 <wire x1="37.465" y1="-81.42" x2="3.937" y2="-114.44" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="N$1">
+<signal name="MOTOR1">
 <contactref element="U$2" pad="1"/>
 </signal>
-<signal name="N$3">
+<signal name="MOTOR2">
 <contactref element="U$2" pad="4"/>
 </signal>
 </signals>

@@ -161,8 +161,8 @@
 <text x="9.525" y="-25.146" size="1.27" layer="21" rot="SR270">INPUT</text>
 <text x="39.878" y="-21.971" size="1.27" layer="21" rot="SR90">MOTOR1</text>
 <text x="39.751" y="-36.322" size="1.27" layer="21" rot="SR90">MOTOR2</text>
-<text x="6.096" y="-18.669" size="1.778" layer="21">ON</text>
-<text x="12.827" y="-18.542" size="1.778" layer="21">OFF</text>
+<text x="6.096" y="-18.669" size="1.6764" layer="21">ON</text>
+<text x="12.827" y="-18.542" size="1.6764" layer="21">OFF</text>
 </plain>
 <libraries>
 <library name="uln-udn">
