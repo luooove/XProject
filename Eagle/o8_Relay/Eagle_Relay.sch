@@ -214,50 +214,6 @@
 </deviceset>
 </devicesets>
 </library>
-<library name="seeedleo">
-<packages>
-<package name="CON2">
-<wire x1="-3.81" y1="3.81" x2="3.81" y2="3.81" width="0.127" layer="21"/>
-<wire x1="3.81" y1="3.81" x2="3.81" y2="-3.81" width="0.127" layer="21"/>
-<wire x1="3.81" y1="-3.81" x2="-3.81" y2="-3.81" width="0.127" layer="21"/>
-<wire x1="-3.81" y1="-3.81" x2="-3.81" y2="3.81" width="0.127" layer="21"/>
-<pad name="1" x="0" y="1.778" drill="1.016" diameter="2.032" shape="square"/>
-<pad name="2" x="0" y="-1.778" drill="1.016" diameter="2.032"/>
-<text x="-2.54" y="1.905" size="1.27" layer="25">&gt;NAME</text>
-<text x="-2.54" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
-</package>
-</packages>
-<symbols>
-<symbol name="CON2">
-<wire x1="-3.81" y1="3.81" x2="-3.81" y2="-3.81" width="0.254" layer="94"/>
-<wire x1="-3.81" y1="-3.81" x2="3.81" y2="-3.81" width="0.254" layer="94"/>
-<wire x1="3.81" y1="-3.81" x2="3.81" y2="3.81" width="0.254" layer="94"/>
-<wire x1="3.81" y1="3.81" x2="-3.81" y2="3.81" width="0.254" layer="94"/>
-<text x="-3.81" y="3.81" size="1.778" layer="95">&gt;NAME</text>
-<text x="-3.81" y="-6.35" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="1" x="-8.89" y="1.27" length="middle"/>
-<pin name="2" x="-8.89" y="-1.27" length="middle"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="CON2" prefix="J">
-<gates>
-<gate name="CON2" symbol="CON2" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="CON2">
-<connects>
-<connect gate="CON2" pin="1" pad="1"/>
-<connect gate="CON2" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="Discrete">
 <packages>
 <package name="R0603">
@@ -1260,20 +1216,6 @@ type 0309, grid 2.5 mm</description>
 &lt;/ul&gt;&lt;/p&gt;
 &lt;p&gt;&lt;b&gt;Doublecheck before using!&lt;/b&gt;&lt;/p&gt;</description>
 <packages>
-<package name="HEAD_LOCK">
-<pad name="1" x="0.0254" y="2.4892" drill="0.8" shape="square"/>
-<pad name="2" x="0.0254" y="-0.0508" drill="0.8" rot="R90"/>
-<pad name="3" x="0.0254" y="-2.5908" drill="0.8" rot="R90"/>
-<wire x1="1.2954" y1="5.0292" x2="-2.5146" y2="5.0292" width="0.127" layer="21"/>
-<wire x1="-2.5146" y1="5.0292" x2="-2.5146" y2="-5.1308" width="0.127" layer="21"/>
-<wire x1="-2.5146" y1="-5.1308" x2="1.2954" y2="-5.1308" width="0.127" layer="21"/>
-<text x="-0.212" y="-0.0798" size="1.27" layer="21" rot="R270">&gt;NAME</text>
-<wire x1="1.2954" y1="5.0292" x2="1.2954" y2="-5.1308" width="0.127" layer="21"/>
-<wire x1="1.2454" y1="-5.1308" x2="1.2454" y2="-5.1408" width="0.127" layer="21"/>
-<wire x1="-7" y1="5" x2="-7" y2="-5.1" width="0.127" layer="21"/>
-<wire x1="-7" y1="-5.1" x2="-2.5" y2="-5.1" width="0.127" layer="21"/>
-<wire x1="-7" y1="5" x2="-2.5" y2="5" width="0.127" layer="21"/>
-</package>
 <package name="DIMENSION_2MM*4MM">
 <wire x1="30.106" y1="21.95" x2="30.306" y2="21.95" width="0" layer="20"/>
 <wire x1="2" y1="0" x2="38" y2="0" width="0.127" layer="20"/>
@@ -7113,20 +7055,6 @@ type 0309, grid 2.5 mm</description>
 </package>
 </packages>
 <symbols>
-<symbol name="HEAD_LOCK">
-<wire x1="-3.81" y1="5.08" x2="-3.81" y2="-4.318" width="0.254" layer="94"/>
-<wire x1="-3.81" y1="-4.318" x2="2.54" y2="-4.318" width="0.254" layer="94"/>
-<wire x1="2.54" y1="-4.318" x2="2.54" y2="5.08" width="0.254" layer="94"/>
-<wire x1="2.54" y1="5.08" x2="-3.81" y2="5.08" width="0.254" layer="94"/>
-<text x="-6.08" y="-6.86" size="1.778" layer="94">&gt;VALUE</text>
-<pin name="1" x="7.62" y="2.54" direction="pas" swaplevel="1" rot="R180"/>
-<pin name="2" x="7.62" y="0" direction="pas" swaplevel="1" rot="R180"/>
-<pin name="3" x="7.62" y="-2.54" direction="pas" swaplevel="1" rot="R180"/>
-<circle x="-1.08" y="2.634" radius="1" width="0.254" layer="94"/>
-<circle x="-1.174" y="-0.064" radius="1" width="0.254" layer="94"/>
-<circle x="-1.174" y="-2.556" radius="1" width="0.254" layer="94"/>
-<text x="-6.08" y="5.84" size="1.778" layer="94">&gt;NAME</text>
-</symbol>
 <symbol name="DIMENSION_4MM*2MM">
 <text x="0" y="0" size="1.27" layer="94">dimension_4mm*2mm</text>
 <wire x1="-2.54" y1="5.08" x2="20.32" y2="5.08" width="0.254" layer="94"/>
@@ -7152,23 +7080,6 @@ type 0309, grid 2.5 mm</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="HEAD_LOCK" prefix="HEAD_LOCK">
-<gates>
-<gate name="G$1" symbol="HEAD_LOCK" x="2.54" y="0"/>
-</gates>
-<devices>
-<device name="" package="HEAD_LOCK">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="3" pad="3"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="DIMENSION_4MM*2MM">
 <gates>
 <gate name="G$1" symbol="DIMENSION_4MM*2MM" x="2.54" y="2.54"/>
@@ -7207,6 +7118,141 @@ type 0309, grid 2.5 mm</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="Xmaker_yuhuilbr">
+<description>&lt;b&gt;Diptronics THMD &amp; SMD tact switches&lt;/b&gt;
+&lt;p&gt;&lt;ul&gt;
+&lt;li&gt;DTS-3: 3.5x6mm THMD tact switch
+&lt;li&gt;DTS-6, DTS-64: 6x6mm THMD tact switch
+&lt;li&gt;DTSM-3: 3.5x6mm SMD tact switch
+&lt;li&gt;DTSM-6, DTSM-64: 6x6mm SMD tact switch
+&lt;/ul&gt;&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Doublecheck before using!&lt;/b&gt;&lt;/p&gt;</description>
+<packages>
+<package name="HEAD_LOCK">
+<pad name="1" x="0.0254" y="2.4892" drill="0.8" shape="square"/>
+<pad name="2" x="0.0254" y="-0.0508" drill="0.8" rot="R90"/>
+<pad name="3" x="0.0254" y="-2.5908" drill="0.8" rot="R90"/>
+<wire x1="1.2954" y1="5.0292" x2="-2.5146" y2="5.0292" width="0.127" layer="21"/>
+<wire x1="-2.5146" y1="5.0292" x2="-2.5146" y2="-5.1308" width="0.127" layer="21"/>
+<wire x1="-2.5146" y1="-5.1308" x2="1.2954" y2="-5.1308" width="0.127" layer="21"/>
+<text x="-0.212" y="-0.0798" size="1.27" layer="21" rot="R270">&gt;NAME</text>
+<wire x1="1.2954" y1="5.0292" x2="1.2954" y2="-5.1308" width="0.127" layer="21"/>
+<wire x1="1.2454" y1="-5.1308" x2="1.2454" y2="-5.1408" width="0.127" layer="21"/>
+<wire x1="-7" y1="5" x2="-7" y2="-5.1" width="0.127" layer="21"/>
+<wire x1="-7" y1="-5.1" x2="-2.5" y2="-5.1" width="0.127" layer="21"/>
+<wire x1="-7" y1="5" x2="-2.5" y2="5" width="0.127" layer="21"/>
+<text x="5.842" y="-3.048" size="1.27" layer="22" rot="MR0">GND</text>
+<text x="5.842" y="-0.762" size="1.27" layer="22" rot="MR0">VCC</text>
+<text x="5.842" y="1.778" size="1.27" layer="22" rot="MR0">SIG</text>
+<wire x1="1.27" y1="3.81" x2="6.858" y2="3.81" width="0.127" layer="22"/>
+<wire x1="6.858" y1="3.81" x2="6.858" y2="1.27" width="0.127" layer="22"/>
+<wire x1="6.858" y1="1.27" x2="6.858" y2="-1.27" width="0.127" layer="22"/>
+<wire x1="6.858" y1="-1.27" x2="6.858" y2="-3.81" width="0.127" layer="22"/>
+<wire x1="6.858" y1="-3.81" x2="1.27" y2="-3.81" width="0.127" layer="22"/>
+<wire x1="1.27" y1="1.27" x2="6.858" y2="1.27" width="0.127" layer="22"/>
+<wire x1="1.27" y1="-1.27" x2="6.858" y2="-1.27" width="0.127" layer="22"/>
+<wire x1="1.27" y1="3.81" x2="1.27" y2="1.27" width="0.127" layer="22"/>
+<wire x1="1.27" y1="1.27" x2="1.27" y2="-1.27" width="0.127" layer="22"/>
+<wire x1="1.27" y1="-1.27" x2="1.27" y2="-3.81" width="0.127" layer="22"/>
+<wire x1="1.27" y1="3.81" x2="-1.27" y2="3.81" width="0.127" layer="22"/>
+<wire x1="-1.27" y1="3.81" x2="-1.27" y2="1.27" width="0.127" layer="22"/>
+<wire x1="-1.27" y1="1.27" x2="-1.27" y2="-1.27" width="0.127" layer="22"/>
+<wire x1="-1.27" y1="-1.27" x2="-1.27" y2="-3.81" width="0.127" layer="22"/>
+<wire x1="-1.27" y1="-3.81" x2="1.27" y2="-3.81" width="0.127" layer="22"/>
+<wire x1="-1.27" y1="1.27" x2="1.27" y2="1.27" width="0.127" layer="22"/>
+<wire x1="-1.27" y1="-1.27" x2="1.27" y2="-1.27" width="0.127" layer="22"/>
+</package>
+<package name="HEAD_LOCK2">
+<pad name="1" x="0" y="1.27" drill="0.8" rot="R90"/>
+<pad name="2" x="0" y="-1.27" drill="0.8" rot="R90"/>
+<wire x1="-2.5146" y1="3.81" x2="-2.54" y2="-3.81" width="0.127" layer="21"/>
+<text x="-5.292" y="3.2222" size="1.27" layer="21" rot="R270">&gt;NAME</text>
+<wire x1="1.2954" y1="3.81" x2="1.2954" y2="-3.81" width="0.127" layer="21"/>
+<text x="5.842" y="-1.778" size="1.27" layer="22" rot="MR0">GND</text>
+<text x="5.842" y="0.762" size="1.27" layer="22" rot="MR0">VCC</text>
+<wire x1="1.2954" y1="1.7272" x2="1.27" y2="-1.27" width="0.127" layer="22"/>
+<wire x1="1.27" y1="-1.27" x2="1.27" y2="-2.54" width="0.127" layer="22"/>
+<wire x1="-2.54" y1="-3.81" x2="-7.0104" y2="-3.81" width="0.127" layer="21"/>
+<wire x1="1.2954" y1="3.81" x2="-2.5146" y2="3.81" width="0.127" layer="21"/>
+<wire x1="-2.5146" y1="3.81" x2="-7.0104" y2="3.81" width="0.127" layer="21"/>
+<wire x1="-7.0104" y1="3.81" x2="-7.0104" y2="-3.81" width="0.127" layer="21"/>
+<wire x1="-7.0104" y1="-3.81" x2="-7.0104" y2="-3.8862" width="0.127" layer="21"/>
+<wire x1="-1.778" y1="3.048" x2="1.27" y2="3.048" width="0.127" layer="22"/>
+<wire x1="1.27" y1="3.048" x2="6.858" y2="3.048" width="0.127" layer="22"/>
+<wire x1="6.858" y1="3.048" x2="6.858" y2="0" width="0.127" layer="22"/>
+<wire x1="6.858" y1="0" x2="6.858" y2="-2.54" width="0.127" layer="22"/>
+<wire x1="6.858" y1="-2.54" x2="1.27" y2="-2.54" width="0.127" layer="22"/>
+<wire x1="1.27" y1="-2.54" x2="-1.778" y2="-2.54" width="0.127" layer="22"/>
+<wire x1="-1.778" y1="-2.54" x2="-1.778" y2="0" width="0.127" layer="22"/>
+<wire x1="-1.778" y1="0" x2="-1.778" y2="3.048" width="0.127" layer="22"/>
+<wire x1="1.27" y1="3.048" x2="1.27" y2="-1.27" width="0.127" layer="22"/>
+<wire x1="-2.54" y1="-3.81" x2="1.27" y2="-3.81" width="0.127" layer="21"/>
+<wire x1="-1.778" y1="0" x2="6.858" y2="0" width="0.127" layer="22"/>
+</package>
+</packages>
+<symbols>
+<symbol name="HEAD_LOCK">
+<wire x1="-3.81" y1="5.08" x2="-3.81" y2="-4.318" width="0.254" layer="94"/>
+<wire x1="-3.81" y1="-4.318" x2="2.54" y2="-4.318" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-4.318" x2="2.54" y2="5.08" width="0.254" layer="94"/>
+<wire x1="2.54" y1="5.08" x2="-3.81" y2="5.08" width="0.254" layer="94"/>
+<text x="-6.08" y="-6.86" size="1.778" layer="94">&gt;VALUE</text>
+<pin name="1" x="7.62" y="2.54" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="2" x="7.62" y="0" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="3" x="7.62" y="-2.54" direction="pas" swaplevel="1" rot="R180"/>
+<circle x="-1.08" y="2.634" radius="1" width="0.254" layer="94"/>
+<circle x="-1.174" y="-0.064" radius="1" width="0.254" layer="94"/>
+<circle x="-1.174" y="-2.556" radius="1" width="0.254" layer="94"/>
+<text x="-6.08" y="5.84" size="1.778" layer="94">&gt;NAME</text>
+</symbol>
+<symbol name="HEAD_LOCK2">
+<wire x1="-2.794" y1="3.81" x2="-2.794" y2="-3.556" width="0.254" layer="94"/>
+<wire x1="-2.794" y1="-3.556" x2="3.556" y2="-3.556" width="0.254" layer="94"/>
+<wire x1="3.556" y1="-3.556" x2="3.556" y2="3.81" width="0.254" layer="94"/>
+<wire x1="3.556" y1="3.81" x2="-2.794" y2="3.81" width="0.254" layer="94"/>
+<pin name="1" x="8.636" y="1.27" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="2" x="8.636" y="-1.27" direction="pas" swaplevel="1" rot="R180"/>
+<circle x="-0.064" y="1.364" radius="1" width="0.254" layer="94"/>
+<circle x="-0.158" y="-1.334" radius="1" width="0.254" layer="94"/>
+<text x="-5.064" y="4.57" size="1.778" layer="94">&gt;NAME</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="HEAD_LOCK" prefix="HEAD_LOCK">
+<gates>
+<gate name="G$1" symbol="HEAD_LOCK" x="2.54" y="0"/>
+</gates>
+<devices>
+<device name="" package="HEAD_LOCK">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="HEAD_LOCK2">
+<gates>
+<gate name="G$1" symbol="HEAD_LOCK2" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="HEAD_LOCK2">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -7219,15 +7265,15 @@ type 0309, grid 2.5 mm</description>
 <parts>
 <part name="Q1" library="Discrete" deviceset="TRANSISTOR-NPN*" device="-SOT23" value="S9013"/>
 <part name="R1" library="Discrete" deviceset="R*" device="-0603" value="4.7k"/>
-<part name="J1" library="seeedleo" deviceset="CON2" device="" value="Screw Terminal"/>
 <part name="U1" library="Seeed" deviceset="RELAY" device="" value="HLS8L-DC3V-S-C"/>
 <part name="U$4" library="moudle" deviceset="SEEEDSTUDIO_SCH_FRAME" device=""/>
 <part name="U$1" library="Power or GND " deviceset="GND_POWER" device=""/>
 <part name="R3" library="Discrete" deviceset="R*" device="-0603" value="47k"/>
-<part name="HEAD_LOCK1" library="Xmaker_yuhui" deviceset="HEAD_LOCK" device=""/>
 <part name="U$6" library="Xmaker_yuhui" deviceset="DIMENSION_4MM*2MM" device=""/>
 <part name="U$7" library="Xmaker_yuhui" deviceset="XMAKERLOGO_2.5MM_TOP" device=""/>
 <part name="U$2" library="Xmaker_yuhui" deviceset="OPENHARDWARE_TOP_2.5MM" device=""/>
+<part name="HEAD_LOCK2" library="Xmaker_yuhuilbr" deviceset="HEAD_LOCK" device=""/>
+<part name="U$3" library="Xmaker_yuhuilbr" deviceset="HEAD_LOCK2" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -7245,7 +7291,6 @@ type 0309, grid 2.5 mm</description>
 <attribute name="NAME" x="-16.002" y="-20.066" size="1.27" layer="95"/>
 <attribute name="VALUE" x="-14.986" y="-22.606" size="1.27" layer="96"/>
 </instance>
-<instance part="J1" gate="CON2" x="49.53" y="-29.21"/>
 <instance part="U1" gate="G$1" x="11.43" y="5.08"/>
 <instance part="U$4" gate="G$1" x="-83.82" y="-104.14"/>
 <instance part="U$1" gate="G$1" x="3.81" y="-30.48"/>
@@ -7253,10 +7298,11 @@ type 0309, grid 2.5 mm</description>
 <attribute name="NAME" x="-7.112" y="-26.416" size="1.27" layer="95"/>
 <attribute name="VALUE" x="-6.096" y="-28.956" size="1.27" layer="96"/>
 </instance>
-<instance part="HEAD_LOCK1" gate="G$1" x="-7.62" y="-40.64"/>
 <instance part="U$6" gate="G$1" x="40.64" y="-45.72"/>
 <instance part="U$7" gate="G$1" x="27.94" y="-45.72"/>
 <instance part="U$2" gate="G$1" x="76.2" y="-45.72"/>
+<instance part="HEAD_LOCK2" gate="G$1" x="-7.62" y="-40.64"/>
+<instance part="U$3" gate="G$1" x="49.276" y="-29.21" rot="R180"/>
 </instances>
 <busses>
 </busses>
@@ -7265,7 +7311,7 @@ type 0309, grid 2.5 mm</description>
 <segment>
 <wire x1="6.35" y1="-43.18" x2="0" y2="-43.18" width="0.1524" layer="91"/>
 <label x="-1.27" y="-43.18" size="1.778" layer="95"/>
-<pinref part="HEAD_LOCK1" gate="G$1" pin="3"/>
+<pinref part="HEAD_LOCK2" gate="G$1" pin="3"/>
 <wire x1="0" y1="-43.18" x2="-1.27" y2="-43.18" width="0.1524" layer="91"/>
 <junction x="0" y="-43.18"/>
 </segment>
@@ -7281,15 +7327,15 @@ type 0309, grid 2.5 mm</description>
 </segment>
 <segment>
 <label x="34.29" y="-30.48" size="1.778" layer="95"/>
-<pinref part="J1" gate="CON2" pin="2"/>
 <wire x1="40.64" y1="-30.48" x2="36.83" y2="-30.48" width="0.1524" layer="91"/>
+<pinref part="U$3" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="VCC" class="0">
 <segment>
 <wire x1="6.35" y1="-40.64" x2="0" y2="-40.64" width="0.1524" layer="91"/>
 <label x="-1.27" y="-40.64" size="1.778" layer="95"/>
-<pinref part="HEAD_LOCK1" gate="G$1" pin="2"/>
+<pinref part="HEAD_LOCK2" gate="G$1" pin="2"/>
 <wire x1="0" y1="-40.64" x2="-1.27" y2="-40.64" width="0.1524" layer="91"/>
 <junction x="0" y="-40.64"/>
 </segment>
@@ -7316,30 +7362,22 @@ type 0309, grid 2.5 mm</description>
 </segment>
 <segment>
 <label x="34.29" y="-27.94" size="1.778" layer="95"/>
-<pinref part="J1" gate="CON2" pin="1"/>
 <wire x1="40.64" y1="-27.94" x2="36.83" y2="-27.94" width="0.1524" layer="91"/>
+<pinref part="U$3" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="VGND" class="0">
 <segment>
-<wire x1="3.81" y1="-5.08" x2="3.81" y2="-10.16" width="0.1524" layer="91"/>
-<wire x1="3.81" y1="-10.16" x2="3.81" y2="-15.24" width="0.1524" layer="91"/>
-<wire x1="3.81" y1="-10.16" x2="12.7" y2="-10.16" width="0.1524" layer="91"/>
-<wire x1="12.7" y1="-10.16" x2="13.97" y2="-10.16" width="0.1524" layer="91"/>
-<wire x1="13.97" y1="-10.16" x2="13.97" y2="-15.24" width="0.1524" layer="91"/>
-<junction x="3.81" y="-10.16"/>
-<label x="3.81" y="-12.7" size="1.778" layer="95"/>
+<wire x1="3.81" y1="-5.08" x2="3.81" y2="-15.24" width="0.1524" layer="91"/>
 <pinref part="Q1" gate="Q" pin="C"/>
 <pinref part="U1" gate="G$1" pin="V-"/>
-<pinref part="U1" gate="G$1" pin="OFF"/>
-<wire x1="13.97" y1="-10.16" x2="17.78" y2="-10.16" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="D1" class="0">
 <segment>
 <label x="0" y="-38.1" size="1.778" layer="95"/>
 <wire x1="6.35" y1="-38.1" x2="0" y2="-38.1" width="0.1524" layer="91"/>
-<pinref part="HEAD_LOCK1" gate="G$1" pin="1"/>
+<pinref part="HEAD_LOCK2" gate="G$1" pin="1"/>
 <wire x1="0" y1="-38.1" x2="-1.27" y2="-38.1" width="0.1524" layer="91"/>
 <junction x="0" y="-38.1"/>
 </segment>

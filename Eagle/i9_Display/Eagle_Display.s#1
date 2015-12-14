@@ -6620,19 +6620,18 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 </net>
 <net name="IN1" class="0">
 <segment>
+<label x="71.12" y="121.92" size="1.778" layer="95"/>
+<wire x1="66.04" y1="121.92" x2="78.74" y2="121.92" width="0.1524" layer="91"/>
+<pinref part="HEAD_LOCK1" gate="G$1" pin="1"/>
+</segment>
+<segment>
 <pinref part="IC2" gate="G$1" pin="PB4/PCINT4/ADC2"/>
 <wire x1="12.7" y1="86.36" x2="7.62" y2="86.36" width="0.1524" layer="91"/>
 <label x="7.62" y="86.36" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="HEAD_LOCK1" gate="G$1" pin="1"/>
-<wire x1="66.04" y1="121.92" x2="76.2" y2="121.92" width="0.1524" layer="91"/>
-<label x="71.12" y="121.92" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="HEAD_LOCK2" gate="G$1" pin="1"/>
+<label x="101.6" y="121.92" size="1.778" layer="95"/>
 <wire x1="96.52" y1="121.92" x2="109.22" y2="121.92" width="0.1524" layer="91"/>
-<label x="104.14" y="121.92" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="VCC" class="0">
