@@ -5109,6 +5109,42 @@ Source: www.kingbright.com</description>
 <vertex x="0.299" y="-0.7218"/>
 </polygon>
 </package>
+<package name="SOP8">
+<wire x1="-2.425" y1="1.675" x2="-2.175" y2="1.925" width="0.1524" layer="51" curve="-90"/>
+<wire x1="2.175" y1="1.925" x2="2.425" y2="1.675" width="0.1524" layer="51" curve="-90"/>
+<wire x1="2.175" y1="-1.925" x2="2.425" y2="-1.675" width="0.1524" layer="51" curve="90"/>
+<wire x1="-2.425" y1="-1.675" x2="-2.175" y2="-1.925" width="0.1524" layer="51" curve="90"/>
+<wire x1="-1.59" y1="1.925" x2="-0.95" y2="1.925" width="0.1524" layer="51"/>
+<wire x1="-2.165" y1="1.925" x2="2.185" y2="1.925" width="0.1524" layer="51"/>
+<wire x1="0.95" y1="1.925" x2="1.59" y2="1.925" width="0.1524" layer="51"/>
+<wire x1="2.21" y1="1.925" x2="2.185" y2="1.925" width="0.1524" layer="21"/>
+<wire x1="2.2" y1="-1.925" x2="2.185" y2="-1.925" width="0.1524" layer="51"/>
+<wire x1="2.185" y1="-1.925" x2="2.155" y2="-1.925" width="0.1524" layer="51"/>
+<wire x1="1.59" y1="-1.925" x2="0.94" y2="-1.925" width="0.1524" layer="51"/>
+<wire x1="0.32" y1="-1.925" x2="-0.33" y2="-1.925" width="0.1524" layer="51"/>
+<wire x1="2.185" y1="-1.925" x2="-2.165" y2="-1.925" width="0.1524" layer="51"/>
+<wire x1="-2.425" y1="1.675" x2="-2.425" y2="-1.665" width="0.1524" layer="21"/>
+<wire x1="2.425" y1="-1.675" x2="2.425" y2="1.675" width="0.1524" layer="21"/>
+<circle x="-1.42" y="-1.115" radius="0.5" width="0.0508" layer="21"/>
+<smd name="1" x="-1.905" y="-2.654" dx="0.6" dy="1.6" layer="1"/>
+<smd name="2" x="-0.645" y="-2.654" dx="0.6" dy="1.6" layer="1"/>
+<smd name="3" x="0.625" y="-2.654" dx="0.6" dy="1.6" layer="1"/>
+<smd name="4" x="1.895" y="-2.654" dx="0.6" dy="1.6" layer="1"/>
+<smd name="8" x="-1.905" y="2.654" dx="0.6" dy="1.6" layer="1"/>
+<smd name="7" x="-0.635" y="2.654" dx="0.6" dy="1.6" layer="1"/>
+<smd name="6" x="0.635" y="2.654" dx="0.6" dy="1.6" layer="1"/>
+<smd name="5" x="1.905" y="2.654" dx="0.6" dy="1.6" layer="1"/>
+<text x="-2.8575" y="-2.159" size="1.27" layer="25" ratio="10" rot="R90">&gt;NAME</text>
+<text x="4.064" y="-2.159" size="1.27" layer="27" ratio="10" rot="R90">&gt;VALUE</text>
+<rectangle x1="-2.08" y1="1.975" x2="-1.73" y2="3.075" layer="51"/>
+<rectangle x1="-0.81" y1="1.975" x2="-0.46" y2="3.075" layer="51"/>
+<rectangle x1="0.46" y1="1.975" x2="0.81" y2="3.075" layer="51"/>
+<rectangle x1="1.73" y1="1.975" x2="2.08" y2="3.075" layer="51"/>
+<rectangle x1="1.72" y1="-3.075" x2="2.07" y2="-1.975" layer="51"/>
+<rectangle x1="0.45" y1="-3.075" x2="0.8" y2="-1.975" layer="51"/>
+<rectangle x1="-0.82" y1="-3.075" x2="-0.47" y2="-1.975" layer="51"/>
+<rectangle x1="-2.08" y1="-3.075" x2="-1.73" y2="-1.975" layer="51"/>
+</package>
 </packages>
 <symbols>
 <symbol name="DIMENSION1">
@@ -5164,6 +5200,20 @@ Source: www.kingbright.com</description>
 <text x="-5.08" y="0" size="1.016" layer="94">OPENHARDWARE</text>
 <wire x1="7.62" y1="5.08" x2="7.62" y2="-2.54" width="0.254" layer="94"/>
 <text x="-5.08" y="2.54" size="1.27" layer="94">5MM TOP</text>
+</symbol>
+<symbol name="L9110">
+<wire x1="-7.62" y1="12.7" x2="17.78" y2="12.7" width="0.254" layer="94"/>
+<wire x1="17.78" y1="12.7" x2="17.78" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="17.78" y1="-10.16" x2="-7.62" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-10.16" x2="-7.62" y2="12.7" width="0.254" layer="94"/>
+<pin name="OA" x="-12.7" y="10.16" length="middle"/>
+<pin name="VCC1" x="-12.7" y="5.08" length="middle"/>
+<pin name="VCC2" x="-12.7" y="0" length="middle"/>
+<pin name="OB" x="-12.7" y="-5.08" length="middle"/>
+<pin name="GND1" x="22.86" y="-5.08" length="middle" rot="R180"/>
+<pin name="IA" x="22.86" y="0" length="middle" rot="R180"/>
+<pin name="IB" x="22.86" y="5.08" length="middle" rot="R180"/>
+<pin name="GND2" x="22.86" y="10.16" length="middle" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -5231,6 +5281,28 @@ Source: www.kingbright.com</description>
 </gates>
 <devices>
 <device name="" package="OPENSOURCE_5MM_TOP">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="L9110">
+<gates>
+<gate name="G$1" symbol="L9110" x="-5.08" y="-2.54"/>
+</gates>
+<devices>
+<device name="" package="SOP8">
+<connects>
+<connect gate="G$1" pin="GND1" pad="5"/>
+<connect gate="G$1" pin="GND2" pad="8"/>
+<connect gate="G$1" pin="IA" pad="6"/>
+<connect gate="G$1" pin="IB" pad="7"/>
+<connect gate="G$1" pin="OA" pad="1"/>
+<connect gate="G$1" pin="OB" pad="4"/>
+<connect gate="G$1" pin="VCC1" pad="2"/>
+<connect gate="G$1" pin="VCC2" pad="3"/>
+</connects>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -6578,6 +6650,9 @@ DPDT SMT slide switch, AYZ0202, SWCH-08179</description>
 <part name="R2" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES"/>
 <part name="GND1" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="SUPPLY2" library="SparkFun-Aesthetics" deviceset="5V" device=""/>
+<part name="U$2" library="Xmaker_yuhui" deviceset="L9110" device=""/>
+<part name="SUPPLY1" library="supply2" deviceset="VCC" device=""/>
+<part name="SUPPLY3" library="supply2" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -6611,6 +6686,9 @@ DPDT SMT slide switch, AYZ0202, SWCH-08179</description>
 <instance part="R2" gate="G$1" x="-114.3" y="15.24" rot="R90"/>
 <instance part="GND1" gate="1" x="-114.3" y="-7.62"/>
 <instance part="SUPPLY2" gate="G$1" x="-114.3" y="22.86"/>
+<instance part="U$2" gate="G$1" x="88.9" y="2.54"/>
+<instance part="SUPPLY1" gate="G$1" x="68.58" y="7.62" rot="R90"/>
+<instance part="SUPPLY3" gate="GND" x="116.84" y="-7.62"/>
 </instances>
 <busses>
 </busses>
@@ -6652,6 +6730,16 @@ DPDT SMT slide switch, AYZ0202, SWCH-08179</description>
 <wire x1="-111.76" y1="0" x2="-114.3" y2="0" width="0.1524" layer="91"/>
 <wire x1="-114.3" y1="0" x2="-114.3" y2="-5.08" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="U$2" gate="G$1" pin="GND2"/>
+<pinref part="SUPPLY3" gate="GND" pin="GND"/>
+<wire x1="111.76" y1="12.7" x2="116.84" y2="12.7" width="0.1524" layer="91"/>
+<wire x1="116.84" y1="12.7" x2="116.84" y2="-2.54" width="0.1524" layer="91"/>
+<pinref part="U$2" gate="G$1" pin="GND1"/>
+<wire x1="116.84" y1="-2.54" x2="116.84" y2="-5.08" width="0.1524" layer="91"/>
+<wire x1="111.76" y1="-2.54" x2="116.84" y2="-2.54" width="0.1524" layer="91"/>
+<junction x="116.84" y="-2.54"/>
+</segment>
 </net>
 <net name="VCC" class="0">
 <segment>
@@ -6689,6 +6777,16 @@ DPDT SMT slide switch, AYZ0202, SWCH-08179</description>
 <pinref part="SUPPLY18" gate="G$1" pin="VCC"/>
 <pinref part="U$6" gate="G$1" pin="1"/>
 </segment>
+<segment>
+<pinref part="U$2" gate="G$1" pin="VCC1"/>
+<pinref part="SUPPLY1" gate="G$1" pin="VCC"/>
+<wire x1="76.2" y1="7.62" x2="73.66" y2="7.62" width="0.1524" layer="91"/>
+<pinref part="U$2" gate="G$1" pin="VCC2"/>
+<wire x1="73.66" y1="7.62" x2="71.12" y2="7.62" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="2.54" x2="73.66" y2="2.54" width="0.1524" layer="91"/>
+<wire x1="73.66" y1="2.54" x2="73.66" y2="7.62" width="0.1524" layer="91"/>
+<junction x="73.66" y="7.62"/>
+</segment>
 </net>
 <net name="PWM" class="0">
 <segment>
@@ -6700,6 +6798,11 @@ DPDT SMT slide switch, AYZ0202, SWCH-08179</description>
 <wire x1="-68.58" y1="-12.7" x2="-55.88" y2="-12.7" width="0.1524" layer="91"/>
 <label x="-63.5" y="-12.7" size="1.778" layer="95"/>
 <pinref part="HEAD_LOCK2" gate="G$1" pin="1"/>
+</segment>
+<segment>
+<pinref part="U$2" gate="G$1" pin="IA"/>
+<wire x1="111.76" y1="2.54" x2="132.08" y2="2.54" width="0.1524" layer="91"/>
+<label x="127" y="2.54" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="ADC" class="0">
@@ -6765,6 +6868,23 @@ DPDT SMT slide switch, AYZ0202, SWCH-08179</description>
 <pinref part="IC3" gate="G$1" pin="PB2/PCINT2/SCK/ADC1/T0"/>
 <wire x1="-20.32" y1="5.08" x2="-38.1" y2="5.08" width="0.1524" layer="91"/>
 <label x="-38.1" y="5.08" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$2" gate="G$1" pin="IB"/>
+<wire x1="111.76" y1="7.62" x2="132.08" y2="7.62" width="0.1524" layer="91"/>
+<label x="127" y="7.62" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="N$1" class="0">
+<segment>
+<pinref part="U$2" gate="G$1" pin="OA"/>
+<wire x1="76.2" y1="12.7" x2="63.5" y2="12.7" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$3" class="0">
+<segment>
+<pinref part="U$2" gate="G$1" pin="OB"/>
+<wire x1="76.2" y1="-2.54" x2="63.5" y2="-2.54" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>

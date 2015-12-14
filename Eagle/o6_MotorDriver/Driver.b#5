@@ -4891,6 +4891,42 @@ Source: http://www.ledtronics.com/ds/smd-0603/Dstr0092.pdf</description>
 <vertex x="0.299" y="-0.7218"/>
 </polygon>
 </package>
+<package name="SOP8">
+<wire x1="-2.425" y1="1.675" x2="-2.175" y2="1.925" width="0.1524" layer="51" curve="-90"/>
+<wire x1="2.175" y1="1.925" x2="2.425" y2="1.675" width="0.1524" layer="51" curve="-90"/>
+<wire x1="2.175" y1="-1.925" x2="2.425" y2="-1.675" width="0.1524" layer="51" curve="90"/>
+<wire x1="-2.425" y1="-1.675" x2="-2.175" y2="-1.925" width="0.1524" layer="51" curve="90"/>
+<wire x1="-1.59" y1="1.925" x2="-0.95" y2="1.925" width="0.1524" layer="51"/>
+<wire x1="-2.165" y1="1.925" x2="2.185" y2="1.925" width="0.1524" layer="51"/>
+<wire x1="0.95" y1="1.925" x2="1.59" y2="1.925" width="0.1524" layer="51"/>
+<wire x1="2.21" y1="1.925" x2="2.185" y2="1.925" width="0.1524" layer="21"/>
+<wire x1="2.2" y1="-1.925" x2="2.185" y2="-1.925" width="0.1524" layer="51"/>
+<wire x1="2.185" y1="-1.925" x2="2.155" y2="-1.925" width="0.1524" layer="51"/>
+<wire x1="1.59" y1="-1.925" x2="0.94" y2="-1.925" width="0.1524" layer="51"/>
+<wire x1="0.32" y1="-1.925" x2="-0.33" y2="-1.925" width="0.1524" layer="51"/>
+<wire x1="2.185" y1="-1.925" x2="-2.165" y2="-1.925" width="0.1524" layer="51"/>
+<wire x1="-2.425" y1="1.675" x2="-2.425" y2="-1.665" width="0.1524" layer="21"/>
+<wire x1="2.425" y1="-1.675" x2="2.425" y2="1.675" width="0.1524" layer="21"/>
+<circle x="-1.42" y="-1.115" radius="0.5" width="0.0508" layer="21"/>
+<smd name="1" x="-1.905" y="-2.654" dx="0.6" dy="1.6" layer="1"/>
+<smd name="2" x="-0.645" y="-2.654" dx="0.6" dy="1.6" layer="1"/>
+<smd name="3" x="0.625" y="-2.654" dx="0.6" dy="1.6" layer="1"/>
+<smd name="4" x="1.895" y="-2.654" dx="0.6" dy="1.6" layer="1"/>
+<smd name="8" x="-1.905" y="2.654" dx="0.6" dy="1.6" layer="1"/>
+<smd name="7" x="-0.635" y="2.654" dx="0.6" dy="1.6" layer="1"/>
+<smd name="6" x="0.635" y="2.654" dx="0.6" dy="1.6" layer="1"/>
+<smd name="5" x="1.905" y="2.654" dx="0.6" dy="1.6" layer="1"/>
+<text x="-2.8575" y="-2.159" size="1.27" layer="25" ratio="10" rot="R90">&gt;NAME</text>
+<text x="4.064" y="-2.159" size="1.27" layer="27" ratio="10" rot="R90">&gt;VALUE</text>
+<rectangle x1="-2.08" y1="1.975" x2="-1.73" y2="3.075" layer="51"/>
+<rectangle x1="-0.81" y1="1.975" x2="-0.46" y2="3.075" layer="51"/>
+<rectangle x1="0.46" y1="1.975" x2="0.81" y2="3.075" layer="51"/>
+<rectangle x1="1.73" y1="1.975" x2="2.08" y2="3.075" layer="51"/>
+<rectangle x1="1.72" y1="-3.075" x2="2.07" y2="-1.975" layer="51"/>
+<rectangle x1="0.45" y1="-3.075" x2="0.8" y2="-1.975" layer="51"/>
+<rectangle x1="-0.82" y1="-3.075" x2="-0.47" y2="-1.975" layer="51"/>
+<rectangle x1="-2.08" y1="-3.075" x2="-1.73" y2="-1.975" layer="51"/>
+</package>
 </packages>
 </library>
 <library name="atmel">
@@ -5268,6 +5304,7 @@ design rules under a new name.</description>
 <attribute name="PROD_ID" value="SWCH-08261" x="-6.985" y="-85.471" size="1.778" layer="27" display="off"/>
 </element>
 <element name="R2" library="SparkFun-Passives" package="0603-RES" value="" x="8.255" y="-97.028"/>
+<element name="U$2" library="Xmaker_yuhui" package="SOP8" value="L9110" x="4.572" y="-117.094"/>
 </elements>
 <signals>
 <signal name="GND">
@@ -5278,6 +5315,10 @@ design rules under a new name.</description>
 <contactref element="R3" pad="1"/>
 <contactref element="U$6" pad="P$3"/>
 <contactref element="S1" pad="3"/>
+<contactref element="U$2" pad="8"/>
+<contactref element="U$2" pad="5"/>
+<wire x1="6.477" y1="-114.44" x2="2.667" y2="-114.44" width="0" layer="19" extent="1-1"/>
+<wire x1="4.445" y1="-108.3818" x2="2.667" y2="-114.44" width="0" layer="19" extent="1-1"/>
 <wire x1="13.169" y1="-92.329" x2="4.445" y2="-108.3818" width="0" layer="19" extent="1-1"/>
 <wire x1="14.644" y1="-92.329" x2="13.169" y2="-92.329" width="0" layer="19" extent="1-1"/>
 <wire x1="15.7734" y1="-80.5688" x2="14.644" y2="-92.329" width="0" layer="19" extent="1-1"/>
@@ -5293,6 +5334,10 @@ design rules under a new name.</description>
 <contactref element="IC3" pad="1"/>
 <contactref element="LED2" pad="A"/>
 <contactref element="U$6" pad="P$1"/>
+<contactref element="U$2" pad="2"/>
+<contactref element="U$2" pad="3"/>
+<wire x1="5.197" y1="-119.748" x2="3.927" y2="-119.748" width="0" layer="19" extent="1-1"/>
+<wire x1="7.354" y1="-93.726" x2="5.197" y2="-119.748" width="0" layer="19" extent="1-1"/>
 <wire x1="11.469" y1="-92.329" x2="7.354" y2="-93.726" width="0" layer="19" extent="1-1"/>
 <wire x1="21.4" y1="-88.9" x2="11.469" y2="-92.329" width="0" layer="19" extent="1-1"/>
 <wire x1="15.7734" y1="-78.0288" x2="21.4" y2="-88.9" width="0" layer="19" extent="1-1"/>
@@ -5303,6 +5348,8 @@ design rules under a new name.</description>
 <signal name="PWM">
 <contactref element="IC3" pad="5"/>
 <contactref element="HEAD_LOCK2" pad="1"/>
+<contactref element="U$2" pad="6"/>
+<wire x1="15.7734" y1="-75.4888" x2="5.207" y2="-114.44" width="0" layer="19" extent="1-1"/>
 <wire x1="40.005" y1="-81.42" x2="15.7734" y2="-75.4888" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="ADC">
@@ -5335,6 +5382,14 @@ design rules under a new name.</description>
 </signal>
 <signal name="DIR">
 <contactref element="IC3" pad="7"/>
+<contactref element="U$2" pad="7"/>
+<wire x1="37.465" y1="-81.42" x2="3.937" y2="-114.44" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$1">
+<contactref element="U$2" pad="1"/>
+</signal>
+<signal name="N$3">
+<contactref element="U$2" pad="4"/>
 </signal>
 </signals>
 </board>

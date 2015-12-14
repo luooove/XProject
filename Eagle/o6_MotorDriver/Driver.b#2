@@ -5279,38 +5279,36 @@ design rules under a new name.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="IC3" library="atmel" package="8S1" value="TINY13-20SSU" x="38.1" y="-84.074">
-<attribute name="OC_NEWARK" value="58M3771" x="4.572" y="-47.244" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="ATTINY13-20SSU" x="4.572" y="-47.244" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="" x="4.572" y="-47.244" size="1.778" layer="27" display="off"/>
-<attribute name="OC_FARNELL" value="1455133" x="4.572" y="-47.244" size="1.778" layer="27" display="off"/>
+<element name="IC3" library="atmel" package="8S1" value="TINY13-20SSU" x="17.145" y="-62.357" rot="R270">
+<attribute name="OC_NEWARK" value="58M3771" x="53.975" y="-28.829" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="ATTINY13-20SSU" x="53.975" y="-28.829" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MF" value="" x="53.975" y="-28.829" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_FARNELL" value="1455133" x="53.975" y="-28.829" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="C1" library="SparkFun-Passives" package="0603-CAP" value="0.1uF" x="12.319" y="-92.329"/>
-<element name="R3" library="SparkFun-Resistors" package="0603-RES" value="" x="15.494" y="-92.329">
-<attribute name="PROD_ID" value="RES-08787" x="1.651" y="-55.245" size="1.778" layer="27" display="off"/>
+<element name="C1" library="SparkFun-Passives" package="0603-CAP" value="0.1uF" x="17.653" y="-77.597"/>
+<element name="R3" library="SparkFun-Resistors" package="0603-RES" value="" x="23.368" y="-78.359">
+<attribute name="PROD_ID" value="RES-08787" x="9.525" y="-41.275" size="1.778" layer="27" display="off"/>
 </element>
-<element name="LED2" library="eagle-ltspice" package="LED_SML0603" value="" x="6.604" y="-93.726">
-<attribute name="SPICEMODEL" value="NONE" x="1.524" y="-59.055" size="1.778" layer="27" display="off"/>
-<attribute name="SPICETYPE" value="diode" x="1.524" y="-59.055" size="1.778" layer="27" display="off"/>
-<attribute name="SPICEPREFIX" value="D" x="1.524" y="-59.055" size="1.778" layer="27" display="off"/>
+<element name="LED2" library="eagle-ltspice" package="LED_SML0603" value="" x="11.43" y="-79.756">
+<attribute name="SPICEMODEL" value="NONE" x="6.35" y="-45.085" size="1.778" layer="27" display="off"/>
+<attribute name="SPICETYPE" value="diode" x="6.35" y="-45.085" size="1.778" layer="27" display="off"/>
+<attribute name="SPICEPREFIX" value="D" x="6.35" y="-45.085" size="1.778" layer="27" display="off"/>
 </element>
 <element name="U$1" library="Xmaker_yuhui" package="DIMENSION1" value="DIMENSION1" x="1.016" y="-71.755"/>
-<element name="U$6" library="Xmaker_yuhui" package="POT_CIRCLE" value="POL_CIRCLE" x="25.4" y="-88.9"/>
-<element name="HEAD_LOCK1" library="Xmaker_yuhui" package="HEAD_LOCK" value="HEAD_LOCK" x="7.112" y="-77.978"/>
-<element name="HEAD_LOCK2" library="Xmaker_yuhui" package="HEAD_LOCK" value="HEAD_LOCK" x="15.748" y="-77.978"/>
+<element name="U$6" library="Xmaker_yuhui" package="POT_CIRCLE" value="POL_CIRCLE" x="30.607" y="-54.102"/>
+<element name="HEAD_LOCK1" library="Xmaker_yuhui" package="HEAD_LOCK" value="HEAD_LOCK" x="9.398" y="-58.801"/>
 <element name="U$7" library="Xmaker_yuhui" package="XMAKERLOGO_5MM_TOP" value="XMAKERLOGO_5MM_TOP" x="45.212" y="-80.137"/>
 <element name="U$8" library="Xmaker_yuhui" package="OPENSOURCE_5MM_TOP" value="OPENHARDWARE_5MM_TOP" x="2.54" y="-93.599"/>
-<element name="S1" library="SparkFun-Electromechanical" package="SWITCH-SPDT_KIT" value="" x="4.445" y="-105.664">
-<attribute name="PROD_ID" value="SWCH-08261" x="-6.985" y="-85.471" size="1.778" layer="27" display="off"/>
+<element name="S1" library="SparkFun-Electromechanical" package="SWITCH-SPDT_KIT" value="" x="14.605" y="-45.339" rot="R90">
+<attribute name="PROD_ID" value="SWCH-08261" x="-5.588" y="-56.769" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="R2" library="SparkFun-Passives" package="0603-RES" value="" x="8.255" y="-97.028"/>
-<element name="U$2" library="Xmaker_yuhui" package="SOP8" value="L9110" x="4.572" y="-117.094"/>
-<element name="HEAD_LOCK3" library="Xmaker_yuhui" package="HEAD_LOCK" value="HEAD_LOCK" x="-1.524" y="-113.538"/>
+<element name="R2" library="SparkFun-Passives" package="0603-RES" value="" x="12.192" y="-50.927"/>
+<element name="U$2" library="Xmaker_yuhui" package="SOP8" value="L9110" x="31.75" y="-62.484" rot="R270"/>
+<element name="HEAD_LOCK3" library="Xmaker_yuhui" package="HEAD_LOCK" value="HEAD_LOCK" x="42.672" y="-60.579" rot="R180"/>
 </elements>
 <signals>
 <signal name="GND">
 <contactref element="IC3" pad="4"/>
-<contactref element="HEAD_LOCK2" pad="3"/>
 <contactref element="HEAD_LOCK1" pad="3"/>
 <contactref element="C1" pad="2"/>
 <contactref element="R3" pad="1"/>
@@ -5318,18 +5316,16 @@ design rules under a new name.</description>
 <contactref element="S1" pad="3"/>
 <contactref element="U$2" pad="8"/>
 <contactref element="U$2" pad="5"/>
-<wire x1="6.477" y1="-114.44" x2="2.667" y2="-114.44" width="0" layer="19" extent="1-1"/>
-<wire x1="4.445" y1="-108.3818" x2="2.667" y2="-114.44" width="0" layer="19" extent="1-1"/>
-<wire x1="13.169" y1="-92.329" x2="4.445" y2="-108.3818" width="0" layer="19" extent="1-1"/>
-<wire x1="14.644" y1="-92.329" x2="13.169" y2="-92.329" width="0" layer="19" extent="1-1"/>
-<wire x1="15.7734" y1="-80.5688" x2="14.644" y2="-92.329" width="0" layer="19" extent="1-1"/>
-<wire x1="7.1374" y1="-80.5688" x2="15.7734" y2="-80.5688" width="0" layer="19" extent="1-1"/>
-<wire x1="29.4" y1="-88.9" x2="14.644" y2="-92.329" width="0" layer="19" extent="1-1"/>
-<wire x1="39.995" y1="-86.728" x2="29.4" y2="-88.9" width="0" layer="19" extent="1-1"/>
+<wire x1="14.491" y1="-64.252" x2="9.4234" y2="-61.3918" width="0" layer="19" extent="1-1"/>
+<wire x1="17.3228" y1="-45.339" x2="14.491" y2="-64.252" width="0" layer="19" extent="1-1"/>
+<wire x1="34.607" y1="-54.102" x2="17.3228" y2="-45.339" width="0" layer="19" extent="1-1"/>
+<wire x1="34.404" y1="-60.579" x2="34.607" y2="-54.102" width="0" layer="19" extent="1-1"/>
+<wire x1="34.404" y1="-64.389" x2="34.404" y2="-60.579" width="0" layer="19" extent="1-1"/>
+<wire x1="22.518" y1="-78.359" x2="14.491" y2="-64.252" width="0" layer="19" extent="1-1"/>
+<wire x1="18.503" y1="-77.597" x2="22.518" y2="-78.359" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="VCC">
 <contactref element="IC3" pad="8"/>
-<contactref element="HEAD_LOCK2" pad="2"/>
 <contactref element="HEAD_LOCK1" pad="2"/>
 <contactref element="C1" pad="1"/>
 <contactref element="IC3" pad="1"/>
@@ -5337,64 +5333,60 @@ design rules under a new name.</description>
 <contactref element="U$6" pad="P$1"/>
 <contactref element="U$2" pad="2"/>
 <contactref element="U$2" pad="3"/>
-<wire x1="5.197" y1="-119.748" x2="3.927" y2="-119.748" width="0" layer="19" extent="1-1"/>
-<wire x1="7.354" y1="-93.726" x2="5.197" y2="-119.748" width="0" layer="19" extent="1-1"/>
-<wire x1="11.469" y1="-92.329" x2="7.354" y2="-93.726" width="0" layer="19" extent="1-1"/>
-<wire x1="21.4" y1="-88.9" x2="11.469" y2="-92.329" width="0" layer="19" extent="1-1"/>
-<wire x1="15.7734" y1="-78.0288" x2="21.4" y2="-88.9" width="0" layer="19" extent="1-1"/>
-<wire x1="7.1374" y1="-78.0288" x2="15.7734" y2="-78.0288" width="0" layer="19" extent="1-1"/>
-<wire x1="36.195" y1="-86.728" x2="21.4" y2="-88.9" width="0" layer="19" extent="1-1"/>
-<wire x1="36.195" y1="-81.42" x2="36.195" y2="-86.728" width="0" layer="19" extent="1-1"/>
+<contactref element="R2" pad="2"/>
+<wire x1="16.803" y1="-77.597" x2="12.18" y2="-79.756" width="0" layer="19" extent="1-1"/>
+<wire x1="14.491" y1="-60.452" x2="16.803" y2="-77.597" width="0" layer="19" extent="1-1"/>
+<wire x1="9.4234" y1="-58.8518" x2="14.491" y2="-60.452" width="0" layer="19" extent="1-1"/>
+<wire x1="19.799" y1="-60.452" x2="14.491" y2="-60.452" width="0" layer="19" extent="1-1"/>
+<wire x1="13.042" y1="-50.927" x2="9.4234" y2="-58.8518" width="0" layer="19" extent="1-1"/>
+<wire x1="26.607" y1="-54.102" x2="19.799" y2="-60.452" width="0" layer="19" extent="1-1"/>
+<wire x1="29.096" y1="-61.839" x2="26.607" y2="-54.102" width="0" layer="19" extent="1-1"/>
+<wire x1="29.096" y1="-63.109" x2="29.096" y2="-61.839" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="PWM">
 <contactref element="IC3" pad="5"/>
-<contactref element="HEAD_LOCK2" pad="1"/>
 <contactref element="U$2" pad="6"/>
-<wire x1="15.7734" y1="-75.4888" x2="5.207" y2="-114.44" width="0" layer="19" extent="1-1"/>
-<wire x1="40.005" y1="-81.42" x2="15.7734" y2="-75.4888" width="0" layer="19" extent="1-1"/>
+<wire x1="34.404" y1="-63.119" x2="19.799" y2="-64.262" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="ADC">
 <contactref element="IC3" pad="2"/>
 <contactref element="HEAD_LOCK1" pad="1"/>
-<wire x1="37.455" y1="-86.728" x2="7.1374" y2="-75.4888" width="0" layer="19" extent="1-1"/>
+<wire x1="14.491" y1="-61.712" x2="9.4234" y2="-56.3118" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$5">
 <contactref element="R3" pad="2"/>
 <contactref element="LED2" pad="C"/>
-<wire x1="16.344" y1="-92.329" x2="5.854" y2="-93.726" width="0" layer="19" extent="1-1"/>
+<wire x1="24.218" y1="-78.359" x2="10.68" y2="-79.756" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$2">
 <contactref element="R2" pad="1"/>
 <contactref element="S1" pad="1"/>
-<wire x1="7.405" y1="-97.028" x2="4.445" y2="-102.9462" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="5V">
-<contactref element="R2" pad="2"/>
+<wire x1="11.342" y1="-50.927" x2="11.8872" y2="-45.339" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SELECT">
 <contactref element="S1" pad="2"/>
 <contactref element="IC3" pad="6"/>
-<wire x1="38.735" y1="-81.42" x2="4.445" y2="-105.664" width="0" layer="19" extent="1-1"/>
+<wire x1="19.799" y1="-62.992" x2="14.605" y2="-45.339" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SPEED">
 <contactref element="U$6" pad="P$2"/>
 <contactref element="IC3" pad="3"/>
-<wire x1="38.725" y1="-86.728" x2="25.4" y2="-88.9" width="0" layer="19" extent="1-1"/>
+<wire x1="14.491" y1="-62.982" x2="30.607" y2="-54.102" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="DIR">
 <contactref element="IC3" pad="7"/>
 <contactref element="U$2" pad="7"/>
-<wire x1="37.465" y1="-81.42" x2="3.937" y2="-114.44" width="0" layer="19" extent="1-1"/>
+<wire x1="19.799" y1="-61.722" x2="34.404" y2="-61.849" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="MOTOR1">
 <contactref element="U$2" pad="1"/>
 <contactref element="HEAD_LOCK3" pad="3"/>
-<wire x1="-1.4986" y1="-116.1288" x2="2.667" y2="-119.748" width="0" layer="19" extent="1-1"/>
+<wire x1="42.6466" y1="-57.9882" x2="29.096" y2="-60.579" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="MOTOR2">
 <contactref element="U$2" pad="4"/>
 <contactref element="HEAD_LOCK3" pad="1"/>
-<wire x1="-1.4986" y1="-111.0488" x2="6.467" y2="-119.748" width="0" layer="19" extent="1-1"/>
+<wire x1="42.6466" y1="-63.0682" x2="29.096" y2="-64.379" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 </board>

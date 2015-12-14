@@ -5333,6 +5333,9 @@ design rules under a new name.</description>
 <contactref element="IC3" pad="3"/>
 <wire x1="38.725" y1="-86.728" x2="25.4" y2="-88.9" width="0" layer="19" extent="1-1"/>
 </signal>
+<signal name="DIR">
+<contactref element="IC3" pad="7"/>
+</signal>
 </signals>
 </board>
 </drawing>

@@ -1063,28 +1063,6 @@ Source: www.kingbright.com</description>
 <circle x="2" y="2" radius="1" width="0.127" layer="20"/>
 <circle x="48" y="28" radius="1" width="0.127" layer="20"/>
 </package>
-<package name="POT_CIRCLE">
-<pad name="P$1" x="-4" y="0" drill="1.2" shape="square"/>
-<pad name="P$2" x="0" y="0" drill="1.2"/>
-<pad name="P$3" x="4" y="0" drill="1.2"/>
-<circle x="0" y="8" radius="8" width="0.127" layer="21"/>
-<hole x="-5" y="10" drill="1.2"/>
-<hole x="5" y="10" drill="1.2"/>
-</package>
-<package name="HEAD_LOCK">
-<pad name="1" x="0.0254" y="2.4892" drill="0.8" shape="square"/>
-<pad name="2" x="0.0254" y="-0.0508" drill="0.8" rot="R90"/>
-<pad name="3" x="0.0254" y="-2.5908" drill="0.8" rot="R90"/>
-<wire x1="1.2954" y1="5.0292" x2="-2.5146" y2="5.0292" width="0.127" layer="21"/>
-<wire x1="-2.5146" y1="5.0292" x2="-2.5146" y2="-5.1308" width="0.127" layer="21"/>
-<wire x1="-2.5146" y1="-5.1308" x2="1.2954" y2="-5.1308" width="0.127" layer="21"/>
-<text x="-0.212" y="-0.0798" size="1.27" layer="21" rot="R270">&gt;NAME</text>
-<wire x1="1.2954" y1="5.0292" x2="1.2954" y2="-5.1308" width="0.127" layer="21"/>
-<wire x1="1.2454" y1="-5.1308" x2="1.2454" y2="-5.1408" width="0.127" layer="21"/>
-<wire x1="-7" y1="5" x2="-7" y2="-5.1" width="0.127" layer="21"/>
-<wire x1="-7" y1="-5.1" x2="-2.5" y2="-5.1" width="0.127" layer="21"/>
-<wire x1="-7" y1="5" x2="-2.5" y2="5" width="0.127" layer="21"/>
-</package>
 <package name="XMAKERLOGO_5MM_TOP">
 <rectangle x1="-1.175003125" y1="-2.590290625" x2="-1.165859375" y2="-2.587246875" layer="21"/>
 <rectangle x1="1.1597625" y1="-2.590290625" x2="1.16890625" y2="-2.587246875" layer="21"/>
@@ -5711,37 +5689,6 @@ Source: www.kingbright.com</description>
 <wire x1="10.16" y1="-2.54" x2="-10.16" y2="-2.54" width="0.254" layer="94"/>
 <wire x1="-10.16" y1="-2.54" x2="-10.16" y2="5.08" width="0.254" layer="94"/>
 </symbol>
-<symbol name="POT_CIRCLE">
-<wire x1="-0.762" y1="2.54" x2="-0.762" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="0.762" y1="-2.54" x2="0.762" y2="2.54" width="0.254" layer="94"/>
-<wire x1="2.54" y1="0" x2="1.651" y2="0" width="0.1524" layer="94"/>
-<wire x1="1.651" y1="0" x2="-1.8796" y2="1.7526" width="0.1524" layer="94"/>
-<wire x1="0.762" y1="2.54" x2="-0.762" y2="2.54" width="0.254" layer="94"/>
-<wire x1="-0.762" y1="-2.54" x2="0.762" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="-2.1597" y1="1.2939" x2="-3.1989" y2="2.4495" width="0.1524" layer="94"/>
-<wire x1="-3.1989" y1="2.4495" x2="-1.7018" y2="2.2352" width="0.1524" layer="94"/>
-<wire x1="-2.1597" y1="1.2939" x2="-1.7018" y2="2.2352" width="0.1524" layer="94"/>
-<text x="-5.969" y="-3.81" size="1.778" layer="95" rot="R90">&gt;NAME</text>
-<text x="-3.81" y="-3.81" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
-<pin name="3" x="0" y="-5.08" visible="off" length="short" direction="pas" rot="R90"/>
-<pin name="1" x="0" y="5.08" visible="off" length="short" direction="pas" rot="R270"/>
-<pin name="2" x="5.08" y="0" visible="off" length="short" direction="pas" rot="R180"/>
-<circle x="-2.54" y="-2.54" radius="0.915809375" width="0.254" layer="94"/>
-</symbol>
-<symbol name="HEAD_LOCK">
-<wire x1="-3.81" y1="5.08" x2="-3.81" y2="-4.318" width="0.254" layer="94"/>
-<wire x1="-3.81" y1="-4.318" x2="2.54" y2="-4.318" width="0.254" layer="94"/>
-<wire x1="2.54" y1="-4.318" x2="2.54" y2="5.08" width="0.254" layer="94"/>
-<wire x1="2.54" y1="5.08" x2="-3.81" y2="5.08" width="0.254" layer="94"/>
-<text x="-6.08" y="-6.86" size="1.778" layer="94">&gt;VALUE</text>
-<pin name="1" x="7.62" y="2.54" direction="pas" swaplevel="1" rot="R180"/>
-<pin name="2" x="7.62" y="0" direction="pas" swaplevel="1" rot="R180"/>
-<pin name="3" x="7.62" y="-2.54" direction="pas" swaplevel="1" rot="R180"/>
-<circle x="-1.08" y="2.634" radius="1" width="0.254" layer="94"/>
-<circle x="-1.174" y="-0.064" radius="1" width="0.254" layer="94"/>
-<circle x="-1.174" y="-2.556" radius="1" width="0.254" layer="94"/>
-<text x="-6.08" y="5.84" size="1.778" layer="94">&gt;NAME</text>
-</symbol>
 <symbol name="XMAKERLOGO_5MM_TOP">
 <text x="-5.08" y="-2.54" size="1.778" layer="94">XMAKER</text>
 <wire x1="-10.16" y1="2.54" x2="10.16" y2="2.54" width="0.254" layer="94"/>
@@ -5772,6 +5719,115 @@ Source: www.kingbright.com</description>
 </device>
 </devices>
 </deviceset>
+<deviceset name="XMAKERLOGO_5MM_TOP">
+<gates>
+<gate name="G$1" symbol="XMAKERLOGO_5MM_TOP" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="XMAKERLOGO_5MM_TOP">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="OPENHARDWARE_5MM_TOP">
+<gates>
+<gate name="G$1" symbol="OPENSOURCELOGO_5MM_TOP" x="0" y="-2.54"/>
+</gates>
+<devices>
+<device name="" package="OPENSOURCE_5MM_TOP">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+<library name="Xmaker">
+<description>&lt;b&gt;Diptronics THMD &amp; SMD tact switches&lt;/b&gt;
+&lt;p&gt;&lt;ul&gt;
+&lt;li&gt;DTS-3: 3.5x6mm THMD tact switch
+&lt;li&gt;DTS-6, DTS-64: 6x6mm THMD tact switch
+&lt;li&gt;DTSM-3: 3.5x6mm SMD tact switch
+&lt;li&gt;DTSM-6, DTSM-64: 6x6mm SMD tact switch
+&lt;/ul&gt;&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Doublecheck before using!&lt;/b&gt;&lt;/p&gt;</description>
+<packages>
+<package name="POT_CIRCLE">
+<pad name="P$1" x="-4" y="0" drill="1.2" shape="square"/>
+<pad name="P$2" x="0" y="0" drill="1.2"/>
+<pad name="P$3" x="4" y="0" drill="1.2"/>
+<circle x="0" y="8" radius="8" width="0.127" layer="21"/>
+<pad name="P$4" x="-5.08" y="10.16" drill="0.8"/>
+<pad name="P$5" x="5.08" y="10.16" drill="0.8"/>
+</package>
+<package name="HEAD_LOCK">
+<pad name="1" x="0.0254" y="2.4892" drill="0.8" shape="square"/>
+<pad name="2" x="0.0254" y="-0.0508" drill="0.8" rot="R90"/>
+<pad name="3" x="0.0254" y="-2.5908" drill="0.8" rot="R90"/>
+<wire x1="1.2954" y1="5.0292" x2="-2.5146" y2="5.0292" width="0.127" layer="21"/>
+<wire x1="-2.5146" y1="5.0292" x2="-2.5146" y2="-5.1308" width="0.127" layer="21"/>
+<wire x1="-2.5146" y1="-5.1308" x2="1.2954" y2="-5.1308" width="0.127" layer="21"/>
+<text x="-5.038" y="1.9522" size="0.8128" layer="21" rot="R270">&gt;NAME</text>
+<wire x1="1.2954" y1="5.0292" x2="1.2954" y2="-5.1308" width="0.127" layer="21"/>
+<wire x1="1.2454" y1="-5.1308" x2="1.2454" y2="-5.1408" width="0.127" layer="21"/>
+<wire x1="-7" y1="5" x2="-7" y2="-5.1" width="0.127" layer="21"/>
+<wire x1="-7" y1="-5.1" x2="-2.5" y2="-5.1" width="0.127" layer="21"/>
+<wire x1="-7" y1="5" x2="-2.5" y2="5" width="0.127" layer="21"/>
+<text x="5.842" y="-3.048" size="1.27" layer="22" rot="MR0">GND</text>
+<text x="5.842" y="-0.762" size="1.27" layer="22" rot="MR0">VCC</text>
+<text x="5.842" y="1.778" size="1.27" layer="22" rot="MR0">SIG</text>
+<wire x1="1.27" y1="3.81" x2="6.35" y2="3.81" width="0.127" layer="22"/>
+<wire x1="6.35" y1="-3.81" x2="1.27" y2="-3.81" width="0.127" layer="22"/>
+<wire x1="1.27" y1="3.81" x2="1.27" y2="-3.81" width="0.127" layer="21"/>
+<wire x1="1.27" y1="3.81" x2="-1.27" y2="3.81" width="0.127" layer="22"/>
+<wire x1="-1.27" y1="3.81" x2="-1.27" y2="1.27" width="0.127" layer="22"/>
+<wire x1="-1.27" y1="1.27" x2="-1.27" y2="-1.27" width="0.127" layer="22"/>
+<wire x1="-1.27" y1="-1.27" x2="-1.27" y2="-3.81" width="0.127" layer="22"/>
+<wire x1="-1.27" y1="-3.81" x2="1.27" y2="-3.81" width="0.127" layer="22"/>
+<wire x1="6.35" y1="3.81" x2="6.35" y2="1.27" width="0.127" layer="22"/>
+<wire x1="6.35" y1="1.27" x2="6.35" y2="-1.27" width="0.127" layer="22"/>
+<wire x1="6.35" y1="-1.27" x2="6.35" y2="-3.81" width="0.127" layer="22"/>
+<wire x1="-1.27" y1="1.27" x2="6.35" y2="1.27" width="0.127" layer="22"/>
+<wire x1="-1.27" y1="-1.27" x2="6.35" y2="-1.27" width="0.127" layer="22"/>
+<wire x1="1.27" y1="3.81" x2="1.27" y2="-3.81" width="0.127" layer="22"/>
+</package>
+</packages>
+<symbols>
+<symbol name="POT_CIRCLE">
+<wire x1="-0.762" y1="2.54" x2="-0.762" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="0.762" y1="-2.54" x2="0.762" y2="2.54" width="0.254" layer="94"/>
+<wire x1="2.54" y1="0" x2="1.651" y2="0" width="0.1524" layer="94"/>
+<wire x1="1.651" y1="0" x2="-1.8796" y2="1.7526" width="0.1524" layer="94"/>
+<wire x1="0.762" y1="2.54" x2="-0.762" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-0.762" y1="-2.54" x2="0.762" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-2.1597" y1="1.2939" x2="-3.1989" y2="2.4495" width="0.1524" layer="94"/>
+<wire x1="-3.1989" y1="2.4495" x2="-1.7018" y2="2.2352" width="0.1524" layer="94"/>
+<wire x1="-2.1597" y1="1.2939" x2="-1.7018" y2="2.2352" width="0.1524" layer="94"/>
+<text x="-5.969" y="-3.81" size="1.778" layer="95" rot="R90">&gt;NAME</text>
+<text x="-3.81" y="-3.81" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
+<pin name="3" x="0" y="-5.08" visible="off" length="short" direction="pas" rot="R90"/>
+<pin name="1" x="0" y="5.08" visible="off" length="short" direction="pas" rot="R270"/>
+<pin name="2" x="5.08" y="0" visible="off" length="short" direction="pas" rot="R180"/>
+<circle x="-2.54" y="-2.54" radius="0.915809375" width="0.254" layer="94"/>
+</symbol>
+<symbol name="HEAD_LOCK">
+<wire x1="-3.81" y1="5.08" x2="-3.81" y2="-4.318" width="0.254" layer="94"/>
+<wire x1="-3.81" y1="-4.318" x2="2.54" y2="-4.318" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-4.318" x2="2.54" y2="5.08" width="0.254" layer="94"/>
+<wire x1="2.54" y1="5.08" x2="-3.81" y2="5.08" width="0.254" layer="94"/>
+<pin name="1" x="7.62" y="2.54" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="2" x="7.62" y="0" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="3" x="7.62" y="-2.54" direction="pas" swaplevel="1" rot="R180"/>
+<circle x="-1.08" y="2.634" radius="1" width="0.254" layer="94"/>
+<circle x="-1.174" y="-0.064" radius="1" width="0.254" layer="94"/>
+<circle x="-1.174" y="-2.556" radius="1" width="0.254" layer="94"/>
+<text x="-6.08" y="5.84" size="1.778" layer="94">&gt;NAME</text>
+</symbol>
+</symbols>
+<devicesets>
 <deviceset name="POL_CIRCLE">
 <gates>
 <gate name="G$1" symbol="POT_CIRCLE" x="2.54" y="0"/>
@@ -5800,30 +5856,6 @@ Source: www.kingbright.com</description>
 <connect gate="G$1" pin="2" pad="2"/>
 <connect gate="G$1" pin="3" pad="3"/>
 </connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="XMAKERLOGO_5MM_TOP">
-<gates>
-<gate name="G$1" symbol="XMAKERLOGO_5MM_TOP" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="XMAKERLOGO_5MM_TOP">
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="OPENHARDWARE_5MM_TOP">
-<gates>
-<gate name="G$1" symbol="OPENSOURCELOGO_5MM_TOP" x="0" y="-2.54"/>
-</gates>
-<devices>
-<device name="" package="OPENSOURCE_5MM_TOP">
 <technologies>
 <technology name=""/>
 </technologies>
@@ -5860,11 +5892,11 @@ Source: www.kingbright.com</description>
 <part name="SUPPLY13" library="supply2" deviceset="VCC" device=""/>
 <part name="LED1" library="eagle-ltspice" deviceset="LED_E" device="SML0603"/>
 <part name="U$3" library="Xmaker_yuhui" deviceset="DIMENSION1" device=""/>
-<part name="U$1" library="Xmaker_yuhui" deviceset="POL_CIRCLE" device=""/>
-<part name="HEAD_LOCK1" library="Xmaker_yuhui" deviceset="HEAD_LOCK" device=""/>
-<part name="HEAD_LOCK2" library="Xmaker_yuhui" deviceset="HEAD_LOCK" device=""/>
 <part name="U$2" library="Xmaker_yuhui" deviceset="XMAKERLOGO_5MM_TOP" device=""/>
 <part name="U$4" library="Xmaker_yuhui" deviceset="OPENHARDWARE_5MM_TOP" device=""/>
+<part name="U$5" library="Xmaker" deviceset="POL_CIRCLE" device=""/>
+<part name="HEAD_LOCK1" library="Xmaker" deviceset="HEAD_LOCK" device=""/>
+<part name="HEAD_LOCK2" library="Xmaker" deviceset="HEAD_LOCK" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -5890,11 +5922,11 @@ Source: www.kingbright.com</description>
 <instance part="SUPPLY13" gate="G$1" x="63.5" y="106.68"/>
 <instance part="LED1" gate="G$1" x="63.5" y="99.06"/>
 <instance part="U$3" gate="G$1" x="63.5" y="25.4"/>
-<instance part="U$1" gate="G$1" x="-7.62" y="55.88"/>
-<instance part="HEAD_LOCK1" gate="G$1" x="-7.62" y="83.82"/>
-<instance part="HEAD_LOCK2" gate="G$1" x="-7.62" y="35.56"/>
 <instance part="U$2" gate="G$1" x="40.64" y="27.94"/>
 <instance part="U$4" gate="G$1" x="22.86" y="25.4"/>
+<instance part="U$5" gate="G$1" x="-7.62" y="55.88"/>
+<instance part="HEAD_LOCK1" gate="G$1" x="-7.62" y="83.82"/>
+<instance part="HEAD_LOCK2" gate="G$1" x="-7.62" y="35.56"/>
 </instances>
 <busses>
 </busses>
@@ -5928,7 +5960,7 @@ Source: www.kingbright.com</description>
 </segment>
 <segment>
 <pinref part="SUPPLY1" gate="GND" pin="GND"/>
-<pinref part="U$1" gate="G$1" pin="3"/>
+<pinref part="U$5" gate="G$1" pin="3"/>
 </segment>
 </net>
 <net name="VCC" class="0">
@@ -5965,7 +5997,7 @@ Source: www.kingbright.com</description>
 </segment>
 <segment>
 <pinref part="SUPPLY8" gate="G$1" pin="VCC"/>
-<pinref part="U$1" gate="G$1" pin="1"/>
+<pinref part="U$5" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="PWM" class="0">
@@ -6001,7 +6033,7 @@ Source: www.kingbright.com</description>
 </segment>
 <segment>
 <wire x1="-2.54" y1="55.88" x2="10.16" y2="55.88" width="0.1524" layer="91"/>
-<pinref part="U$1" gate="G$1" pin="2"/>
+<pinref part="U$5" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$1" class="0">

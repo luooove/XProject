@@ -29,7 +29,7 @@
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="13" fill="1" visible="yes" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
@@ -588,9 +588,6 @@
 <rectangle x1="5.4991" y1="17.8943" x2="5.6769" y2="17.9197" layer="21"/>
 <rectangle x1="7.1501" y1="17.8943" x2="7.3787" y2="17.9197" layer="21"/>
 <text x="0" y="-0.127" size="0.0508" layer="21" font="vector">Y:/Xmaker/XmakerPCB/Eagle_File/¼̵çÆ÷.bmp</text>
-<text x="11.1506" y="12.0396" size="1.016" layer="22" font="vector" rot="MR0">GND</text>
-<text x="11.2014" y="9.4742" size="1.016" layer="22" font="vector" rot="MR0">VCC</text>
-<text x="10.9474" y="6.8834" size="1.016" layer="22" font="vector" rot="MR0">SIG</text>
 <text x="32.9438" y="11.4046" size="0.8128" layer="22" font="vector" rot="MR0">VCC</text>
 <text x="32.9438" y="7.8486" size="0.8128" layer="22" font="vector" rot="MR0">GND</text>
 </plain>
@@ -6742,7 +6739,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="11.682" y="1.839" size="1.016" layer="25" ratio="10" rot="R180"/>
 </element>
 <element name="R1" library="Discrete" package="R0603" value="4.7k" x="9.61" y="12.24" smashed="yes" rot="R270">
-<attribute name="NAME" x="10.372" y="11.637" size="1.016" layer="25" ratio="10" rot="R270"/>
+<attribute name="NAME" x="11.896" y="13.3134" size="1.016" layer="25" ratio="10" rot="R270"/>
 </element>
 <element name="J1" library="seeedleo" package="CON2" value="Screw Terminal" x="36" y="10" smashed="yes">
 <attribute name="NAME" x="37.778" y="11.905" size="1.016" layer="25"/>
@@ -6750,13 +6747,13 @@ design rules under a new name.</description>
 <element name="U1" library="Seeed" package="RELAY" value="HLS8L-DC3V-S-C" x="16.51" y="16.51" smashed="yes">
 <attribute name="NAME" x="20.43" y="13.59" size="1.016" layer="25"/>
 </element>
-<element name="R3" library="Discrete" package="R0603" value="47k" x="9.5076" y="6.449" smashed="yes" rot="R270">
-<attribute name="NAME" x="8.2696" y="7.846" size="1.016" layer="25" ratio="10" rot="R270"/>
+<element name="R3" library="Discrete" package="R0603" value="47k" x="9.5584" y="6.449" smashed="yes" rot="R270">
+<attribute name="NAME" x="11.8764" y="7.3888" size="1.016" layer="25" ratio="10" rot="R270"/>
 </element>
 <element name="U$6" library="Xmaker_yuhui" package="DIMENSION_2MM*4MM" value="DIMENSION_4MM2MM" x="0" y="0"/>
 <element name="U$7" library="Xmaker_yuhui" package="XMAKERLOGO_2.5MM_TOP" value="XMAKERLOGO_2.5MM_TOP" x="35.01" y="3.93" rot="R90"/>
 <element name="U$2" library="Xmaker_yuhui" package="OPENSOURCELOGO_2.5MM" value="OPENHARDWARE_TOP_2.5MM" x="35.052" y="16.002" rot="R90"/>
-<element name="HEAD_LOCK2" library="Xmaker_yuhuilbr" package="HEAD_LOCK" value="HEAD_LOCK" x="7" y="10"/>
+<element name="HEAD_LOCK2" library="Xmaker_yuhuilbr" package="HEAD_LOCK" value="HEAD_LOCK" x="7" y="10" smashed="yes"/>
 </elements>
 <signals>
 <signal name="GND">
@@ -6788,12 +6785,12 @@ design rules under a new name.</description>
 </polygon>
 <wire x1="15.7912" y1="8.222" x2="13.1826" y2="5.6134" width="0.6096" layer="1"/>
 <wire x1="13.1826" y1="5.6134" x2="9.5812" y2="5.6134" width="0.6096" layer="1"/>
-<wire x1="9.5812" y1="5.6134" x2="9.5076" y2="5.687" width="0.6096" layer="1"/>
+<wire x1="9.5812" y1="5.6134" x2="9.5584" y2="5.687" width="0.6096" layer="1"/>
 <contactref element="HEAD_LOCK2" pad="3"/>
 <wire x1="7.523" y1="3.49" x2="7.523" y2="4.9576" width="0.6096" layer="1"/>
 <wire x1="7.523" y1="4.9576" x2="7.6962" y2="5.1308" width="0.6096" layer="1"/>
 <wire x1="7.6962" y1="5.1308" x2="8.9514" y2="5.1308" width="0.6096" layer="1"/>
-<wire x1="8.9514" y1="5.1308" x2="9.5076" y2="5.687" width="0.6096" layer="1"/>
+<wire x1="8.9514" y1="5.1308" x2="9.5584" y2="5.687" width="0.6096" layer="1"/>
 <wire x1="7.0254" y1="7.4092" x2="7.0254" y2="5.4552" width="0.6096" layer="1"/>
 <wire x1="7.0254" y1="5.4552" x2="7.523" y2="4.9576" width="0.6096" layer="1"/>
 </signal>
@@ -6825,9 +6822,9 @@ design rules under a new name.</description>
 <wire x1="8.412" y1="1.458" x2="6.67" y2="1.458" width="0.6096" layer="1"/>
 <wire x1="6.67" y1="1.458" x2="3.302" y2="4.826" width="0.6096" layer="1"/>
 <wire x1="3.302" y1="4.826" x2="3.302" y2="13.716" width="0.6096" layer="1"/>
-<wire x1="3.302" y1="13.716" x2="5.588" y2="16.002" width="0.6096" layer="1"/>
-<wire x1="5.588" y1="16.002" x2="16.002" y2="16.002" width="0.6096" layer="1"/>
-<wire x1="16.002" y1="16.002" x2="16.51" y2="16.51" width="0.6096" layer="1"/>
+<wire x1="3.302" y1="13.716" x2="5.9944" y2="17.1958" width="0.6096" layer="1"/>
+<wire x1="5.9944" y1="17.1958" x2="16.0274" y2="17.1958" width="0.6096" layer="1"/>
+<wire x1="16.0274" y1="17.1958" x2="16.51" y2="16.51" width="0.6096" layer="1"/>
 </signal>
 <signal name="D1">
 <contactref element="R1" pad="1"/>
@@ -6842,16 +6839,18 @@ design rules under a new name.</description>
 <contactref element="R1" pad="2"/>
 <contactref element="R3" pad="1"/>
 <wire x1="9.644" y1="3.833" x2="9.301" y2="3.49" width="0.6096" layer="1"/>
-<wire x1="9.5076" y1="7.211" x2="9.5076" y2="11.3756" width="0.6096" layer="1"/>
+<wire x1="9.5584" y1="7.211" x2="9.5076" y2="11.3756" width="0.6096" layer="1"/>
 <wire x1="9.5076" y1="11.3756" x2="9.61" y2="11.478" width="0.6096" layer="1"/>
 <wire x1="9.644" y1="3.833" x2="11.3054" y2="3.833" width="0.6096" layer="1"/>
 <wire x1="11.3054" y1="3.833" x2="11.4046" y2="3.7338" width="0.6096" layer="1"/>
 <via x="11.4046" y="3.7338" extent="1-16" drill="0.6" shape="square"/>
-<wire x1="11.4046" y1="3.7338" x2="11.4046" y2="11.2522" width="0.6096" layer="16"/>
-<wire x1="11.4046" y1="11.2522" x2="11.3792" y2="11.2776" width="0.6096" layer="16"/>
-<via x="11.3792" y="11.2776" extent="1-16" drill="0.6" shape="square"/>
-<wire x1="11.3792" y1="11.2776" x2="9.8104" y2="11.2776" width="0.6096" layer="1"/>
+<wire x1="11.4046" y1="3.7338" x2="11.43" y2="15.494" width="0.6096" layer="16"/>
+<via x="11.43" y="15.494" extent="1-16" drill="0.6" shape="square"/>
 <wire x1="9.8104" y1="11.2776" x2="9.61" y2="11.478" width="0.6096" layer="1"/>
+<wire x1="9.8104" y1="11.2776" x2="10.887971875" y2="11.2776" width="0.6096" layer="1"/>
+<wire x1="10.887971875" y1="11.2776" x2="11.422046875" y2="11.811675" width="0.6096" layer="1"/>
+<wire x1="11.422046875" y1="11.811675" x2="11.422046875" y2="15.486046875" width="0.6096" layer="1"/>
+<wire x1="11.422046875" y1="15.486046875" x2="11.43" y2="15.494" width="0.6096" layer="1"/>
 </signal>
 </signals>
 </board>

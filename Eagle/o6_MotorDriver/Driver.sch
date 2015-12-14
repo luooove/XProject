@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.2.0">
+<eagle version="6.6.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="10" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -477,20 +477,6 @@ Source: www.kingbright.com</description>
 <circle x="0" y="8" radius="8" width="0.127" layer="21"/>
 <hole x="-5" y="10" drill="1.2"/>
 <hole x="5" y="10" drill="1.2"/>
-</package>
-<package name="HEAD_LOCK">
-<pad name="1" x="0.0254" y="2.4892" drill="0.8" shape="square"/>
-<pad name="2" x="0.0254" y="-0.0508" drill="0.8" rot="R90"/>
-<pad name="3" x="0.0254" y="-2.5908" drill="0.8" rot="R90"/>
-<wire x1="1.2954" y1="5.0292" x2="-2.5146" y2="5.0292" width="0.127" layer="21"/>
-<wire x1="-2.5146" y1="5.0292" x2="-2.5146" y2="-5.1308" width="0.127" layer="21"/>
-<wire x1="-2.5146" y1="-5.1308" x2="1.2954" y2="-5.1308" width="0.127" layer="21"/>
-<text x="-0.212" y="-0.0798" size="1.27" layer="21" rot="R270">&gt;NAME</text>
-<wire x1="1.2954" y1="5.0292" x2="1.2954" y2="-5.1308" width="0.127" layer="21"/>
-<wire x1="1.2454" y1="-5.1308" x2="1.2454" y2="-5.1408" width="0.127" layer="21"/>
-<wire x1="-7" y1="5" x2="-7" y2="-5.1" width="0.127" layer="21"/>
-<wire x1="-7" y1="-5.1" x2="-2.5" y2="-5.1" width="0.127" layer="21"/>
-<wire x1="-7" y1="5" x2="-2.5" y2="5" width="0.127" layer="21"/>
 </package>
 <package name="XMAKERLOGO_5MM_TOP">
 <rectangle x1="-1.175003125" y1="-2.590290625" x2="-1.165859375" y2="-2.587246875" layer="21"/>
@@ -5171,20 +5157,6 @@ Source: www.kingbright.com</description>
 <pin name="2" x="5.08" y="0" visible="off" length="short" direction="pas" rot="R180"/>
 <circle x="-2.54" y="-2.54" radius="0.915809375" width="0.254" layer="94"/>
 </symbol>
-<symbol name="HEAD_LOCK">
-<wire x1="-3.81" y1="5.08" x2="-3.81" y2="-4.318" width="0.254" layer="94"/>
-<wire x1="-3.81" y1="-4.318" x2="2.54" y2="-4.318" width="0.254" layer="94"/>
-<wire x1="2.54" y1="-4.318" x2="2.54" y2="5.08" width="0.254" layer="94"/>
-<wire x1="2.54" y1="5.08" x2="-3.81" y2="5.08" width="0.254" layer="94"/>
-<text x="-6.08" y="-6.86" size="1.778" layer="94">&gt;VALUE</text>
-<pin name="1" x="7.62" y="2.54" direction="pas" swaplevel="1" rot="R180"/>
-<pin name="2" x="7.62" y="0" direction="pas" swaplevel="1" rot="R180"/>
-<pin name="3" x="7.62" y="-2.54" direction="pas" swaplevel="1" rot="R180"/>
-<circle x="-1.08" y="2.634" radius="1" width="0.254" layer="94"/>
-<circle x="-1.174" y="-0.064" radius="1" width="0.254" layer="94"/>
-<circle x="-1.174" y="-2.556" radius="1" width="0.254" layer="94"/>
-<text x="-6.08" y="5.84" size="1.778" layer="94">&gt;NAME</text>
-</symbol>
 <symbol name="XMAKERLOGO_5MM_TOP">
 <text x="-5.08" y="-2.54" size="1.778" layer="94">XMAKER</text>
 <wire x1="-10.16" y1="2.54" x2="10.16" y2="2.54" width="0.254" layer="94"/>
@@ -5239,23 +5211,6 @@ Source: www.kingbright.com</description>
 <connect gate="G$1" pin="1" pad="P$1"/>
 <connect gate="G$1" pin="2" pad="P$2"/>
 <connect gate="G$1" pin="3" pad="P$3"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="HEAD_LOCK" prefix="HEAD_LOCK">
-<gates>
-<gate name="G$1" symbol="HEAD_LOCK" x="2.54" y="0"/>
-</gates>
-<devices>
-<device name="" package="HEAD_LOCK">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="3" pad="3"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6594,6 +6549,137 @@ DPDT SMT slide switch, AYZ0202, SWCH-08179</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="Xmaker">
+<description>&lt;b&gt;Diptronics THMD &amp; SMD tact switches&lt;/b&gt;
+&lt;p&gt;&lt;ul&gt;
+&lt;li&gt;DTS-3: 3.5x6mm THMD tact switch
+&lt;li&gt;DTS-6, DTS-64: 6x6mm THMD tact switch
+&lt;li&gt;DTSM-3: 3.5x6mm SMD tact switch
+&lt;li&gt;DTSM-6, DTSM-64: 6x6mm SMD tact switch
+&lt;/ul&gt;&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Doublecheck before using!&lt;/b&gt;&lt;/p&gt;</description>
+<packages>
+<package name="HEAD_LOCK2">
+<pad name="1" x="0" y="1.27" drill="0.8" rot="R90"/>
+<pad name="2" x="0" y="-1.27" drill="0.8" rot="R90"/>
+<wire x1="-2.5146" y1="3.81" x2="-2.54" y2="-3.81" width="0.127" layer="21"/>
+<text x="-5.292" y="3.2222" size="1.27" layer="21" rot="R270">&gt;NAME</text>
+<wire x1="1.2954" y1="3.81" x2="1.2954" y2="-3.81" width="0.127" layer="21"/>
+<text x="5.842" y="-1.778" size="1.27" layer="22" rot="MR0">OUT2</text>
+<text x="5.842" y="0.762" size="1.27" layer="22" rot="MR0">OUT1</text>
+<wire x1="1.2954" y1="1.7272" x2="1.27" y2="-1.27" width="0.127" layer="22"/>
+<wire x1="1.27" y1="-1.27" x2="1.27" y2="-2.54" width="0.127" layer="22"/>
+<wire x1="-2.54" y1="-3.81" x2="-7.0104" y2="-3.81" width="0.127" layer="21"/>
+<wire x1="1.2954" y1="3.81" x2="-2.5146" y2="3.81" width="0.127" layer="21"/>
+<wire x1="-2.5146" y1="3.81" x2="-7.0104" y2="3.81" width="0.127" layer="21"/>
+<wire x1="-7.0104" y1="3.81" x2="-7.0104" y2="-3.81" width="0.127" layer="21"/>
+<wire x1="-7.0104" y1="-3.81" x2="-7.0104" y2="-3.8862" width="0.127" layer="21"/>
+<wire x1="-1.778" y1="3.048" x2="1.27" y2="3.048" width="0.127" layer="22"/>
+<wire x1="1.27" y1="3.048" x2="6.858" y2="3.048" width="0.127" layer="22"/>
+<wire x1="6.858" y1="3.048" x2="6.858" y2="0" width="0.127" layer="22"/>
+<wire x1="6.858" y1="0" x2="6.858" y2="-2.54" width="0.127" layer="22"/>
+<wire x1="6.858" y1="-2.54" x2="1.27" y2="-2.54" width="0.127" layer="22"/>
+<wire x1="1.27" y1="-2.54" x2="-1.778" y2="-2.54" width="0.127" layer="22"/>
+<wire x1="-1.778" y1="-2.54" x2="-1.778" y2="0" width="0.127" layer="22"/>
+<wire x1="-1.778" y1="0" x2="-1.778" y2="3.048" width="0.127" layer="22"/>
+<wire x1="1.27" y1="3.048" x2="1.27" y2="-1.27" width="0.127" layer="22"/>
+<wire x1="-2.54" y1="-3.81" x2="1.27" y2="-3.81" width="0.127" layer="21"/>
+<wire x1="-1.778" y1="0" x2="6.858" y2="0" width="0.127" layer="22"/>
+</package>
+<package name="HEAD_LOCK">
+<pad name="1" x="0.0254" y="2.4892" drill="0.8" shape="square"/>
+<pad name="2" x="0.0254" y="-0.0508" drill="0.8" rot="R90"/>
+<pad name="3" x="0.0254" y="-2.5908" drill="0.8" rot="R90"/>
+<wire x1="1.2954" y1="5.0292" x2="-2.5146" y2="5.0292" width="0.127" layer="21"/>
+<wire x1="-2.5146" y1="5.0292" x2="-2.5146" y2="-5.1308" width="0.127" layer="21"/>
+<wire x1="-2.5146" y1="-5.1308" x2="1.2954" y2="-5.1308" width="0.127" layer="21"/>
+<text x="-5.038" y="1.9522" size="0.8128" layer="21" rot="R270">&gt;NAME</text>
+<wire x1="1.2954" y1="5.0292" x2="1.2954" y2="-5.1308" width="0.127" layer="21"/>
+<wire x1="1.2454" y1="-5.1308" x2="1.2454" y2="-5.1408" width="0.127" layer="21"/>
+<wire x1="-7" y1="5" x2="-7" y2="-5.1" width="0.127" layer="21"/>
+<wire x1="-7" y1="-5.1" x2="-2.5" y2="-5.1" width="0.127" layer="21"/>
+<wire x1="-7" y1="5" x2="-2.5" y2="5" width="0.127" layer="21"/>
+<text x="5.842" y="-3.048" size="1.27" layer="22" rot="MR0">GND</text>
+<text x="5.842" y="-0.762" size="1.27" layer="22" rot="MR0">VCC</text>
+<text x="5.842" y="1.778" size="1.27" layer="22" rot="MR0">SIG</text>
+<wire x1="1.27" y1="3.81" x2="6.35" y2="3.81" width="0.127" layer="22"/>
+<wire x1="6.35" y1="-3.81" x2="1.27" y2="-3.81" width="0.127" layer="22"/>
+<wire x1="1.27" y1="3.81" x2="1.27" y2="-3.81" width="0.127" layer="21"/>
+<wire x1="1.27" y1="3.81" x2="-1.27" y2="3.81" width="0.127" layer="22"/>
+<wire x1="-1.27" y1="3.81" x2="-1.27" y2="1.27" width="0.127" layer="22"/>
+<wire x1="-1.27" y1="1.27" x2="-1.27" y2="-1.27" width="0.127" layer="22"/>
+<wire x1="-1.27" y1="-1.27" x2="-1.27" y2="-3.81" width="0.127" layer="22"/>
+<wire x1="-1.27" y1="-3.81" x2="1.27" y2="-3.81" width="0.127" layer="22"/>
+<wire x1="6.35" y1="3.81" x2="6.35" y2="1.27" width="0.127" layer="22"/>
+<wire x1="6.35" y1="1.27" x2="6.35" y2="-1.27" width="0.127" layer="22"/>
+<wire x1="6.35" y1="-1.27" x2="6.35" y2="-3.81" width="0.127" layer="22"/>
+<wire x1="-1.27" y1="1.27" x2="6.35" y2="1.27" width="0.127" layer="22"/>
+<wire x1="-1.27" y1="-1.27" x2="6.35" y2="-1.27" width="0.127" layer="22"/>
+<wire x1="1.27" y1="3.81" x2="1.27" y2="-3.81" width="0.127" layer="22"/>
+</package>
+</packages>
+<symbols>
+<symbol name="HEAD_LOCK2">
+<wire x1="-2.794" y1="3.81" x2="-2.794" y2="-3.556" width="0.254" layer="94"/>
+<wire x1="-2.794" y1="-3.556" x2="3.556" y2="-3.556" width="0.254" layer="94"/>
+<wire x1="3.556" y1="-3.556" x2="3.556" y2="3.81" width="0.254" layer="94"/>
+<wire x1="3.556" y1="3.81" x2="-2.794" y2="3.81" width="0.254" layer="94"/>
+<pin name="1" x="8.636" y="1.27" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="2" x="8.636" y="-1.27" direction="pas" swaplevel="1" rot="R180"/>
+<circle x="-0.064" y="1.364" radius="1" width="0.254" layer="94"/>
+<circle x="-0.158" y="-1.334" radius="1" width="0.254" layer="94"/>
+<text x="-5.064" y="4.57" size="1.778" layer="94">&gt;NAME</text>
+</symbol>
+<symbol name="HEAD_LOCK">
+<wire x1="-3.81" y1="5.08" x2="-3.81" y2="-4.318" width="0.254" layer="94"/>
+<wire x1="-3.81" y1="-4.318" x2="2.54" y2="-4.318" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-4.318" x2="2.54" y2="5.08" width="0.254" layer="94"/>
+<wire x1="2.54" y1="5.08" x2="-3.81" y2="5.08" width="0.254" layer="94"/>
+<pin name="1" x="7.62" y="2.54" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="2" x="7.62" y="0" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="3" x="7.62" y="-2.54" direction="pas" swaplevel="1" rot="R180"/>
+<circle x="-1.08" y="2.634" radius="1" width="0.254" layer="94"/>
+<circle x="-1.174" y="-0.064" radius="1" width="0.254" layer="94"/>
+<circle x="-1.174" y="-2.556" radius="1" width="0.254" layer="94"/>
+<text x="-6.08" y="5.84" size="1.778" layer="94">&gt;NAME</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="HEAD_LOCK2">
+<gates>
+<gate name="G$1" symbol="HEAD_LOCK2" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="HEAD_LOCK2">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="HEAD_LOCK" prefix="HEAD_LOCK">
+<gates>
+<gate name="G$1" symbol="HEAD_LOCK" x="2.54" y="0"/>
+</gates>
+<devices>
+<device name="" package="HEAD_LOCK">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -6621,7 +6707,6 @@ DPDT SMT slide switch, AYZ0202, SWCH-08179</description>
 <part name="LED2" library="eagle-ltspice" deviceset="LED_E" device="SML0603"/>
 <part name="U$1" library="Xmaker_yuhui" deviceset="DIMENSION1" device=""/>
 <part name="U$6" library="Xmaker_yuhui" deviceset="POL_CIRCLE" device=""/>
-<part name="HEAD_LOCK1" library="Xmaker_yuhui" deviceset="HEAD_LOCK" device=""/>
 <part name="U$7" library="Xmaker_yuhui" deviceset="XMAKERLOGO_5MM_TOP" device=""/>
 <part name="U$8" library="Xmaker_yuhui" deviceset="OPENHARDWARE_5MM_TOP" device=""/>
 <part name="S1" library="SparkFun-Electromechanical" deviceset="SWITCH-SPDT" device="KIT"/>
@@ -6630,8 +6715,9 @@ DPDT SMT slide switch, AYZ0202, SWCH-08179</description>
 <part name="U$2" library="Xmaker_yuhui" deviceset="L9110" device=""/>
 <part name="SUPPLY1" library="supply2" deviceset="VCC" device=""/>
 <part name="SUPPLY3" library="supply2" deviceset="GND" device=""/>
-<part name="HEAD_LOCK3" library="Xmaker_yuhui" deviceset="HEAD_LOCK" device=""/>
 <part name="SUPPLY2" library="supply2" deviceset="VCC" device=""/>
+<part name="HEAD_LOCK2" library="Xmaker" deviceset="HEAD_LOCK" device=""/>
+<part name="U$4" library="Xmaker" deviceset="HEAD_LOCK2" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -6655,7 +6741,6 @@ DPDT SMT slide switch, AYZ0202, SWCH-08179</description>
 <instance part="LED2" gate="G$1" x="-5.08" y="48.26"/>
 <instance part="U$1" gate="G$1" x="-5.08" y="-25.4"/>
 <instance part="U$6" gate="G$1" x="-76.2" y="5.08"/>
-<instance part="HEAD_LOCK1" gate="G$1" x="-76.2" y="33.02"/>
 <instance part="U$7" gate="G$1" x="-27.94" y="-22.86"/>
 <instance part="U$8" gate="G$1" x="-45.72" y="-25.4"/>
 <instance part="S1" gate="1" x="-106.68" y="2.54" rot="MR0"/>
@@ -6664,8 +6749,9 @@ DPDT SMT slide switch, AYZ0202, SWCH-08179</description>
 <instance part="U$2" gate="G$1" x="88.9" y="2.54"/>
 <instance part="SUPPLY1" gate="G$1" x="68.58" y="7.62" rot="R90"/>
 <instance part="SUPPLY3" gate="GND" x="116.84" y="-7.62"/>
-<instance part="HEAD_LOCK3" gate="G$1" x="165.1" y="5.08" rot="R180"/>
 <instance part="SUPPLY2" gate="G$1" x="-114.3" y="25.4"/>
+<instance part="HEAD_LOCK2" gate="G$1" x="-76.454" y="33.02"/>
+<instance part="U$4" gate="G$1" x="169.926" y="5.08" rot="R180"/>
 </instances>
 <busses>
 </busses>
@@ -6678,9 +6764,9 @@ DPDT SMT slide switch, AYZ0202, SWCH-08179</description>
 </segment>
 <segment>
 <pinref part="SUPPLY9" gate="GND" pin="GND"/>
-<wire x1="-68.58" y1="30.48" x2="-63.5" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="-68.834" y1="30.48" x2="-63.5" y2="30.48" width="0.1524" layer="91"/>
 <wire x1="-63.5" y1="30.48" x2="-63.5" y2="27.94" width="0.1524" layer="91"/>
-<pinref part="HEAD_LOCK1" gate="G$1" pin="3"/>
+<pinref part="HEAD_LOCK2" gate="G$1" pin="3"/>
 </segment>
 <segment>
 <pinref part="C1" gate="G$1" pin="2"/>
@@ -6721,8 +6807,8 @@ DPDT SMT slide switch, AYZ0202, SWCH-08179</description>
 </segment>
 <segment>
 <pinref part="SUPPLY10" gate="G$1" pin="VCC"/>
-<wire x1="-63.5" y1="33.02" x2="-68.58" y2="33.02" width="0.1524" layer="91"/>
-<pinref part="HEAD_LOCK1" gate="G$1" pin="2"/>
+<wire x1="-63.5" y1="33.02" x2="-68.834" y2="33.02" width="0.1524" layer="91"/>
+<pinref part="HEAD_LOCK2" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <pinref part="SUPPLY19" gate="G$1" pin="VCC"/>
@@ -6778,9 +6864,9 @@ DPDT SMT slide switch, AYZ0202, SWCH-08179</description>
 <label x="-38.1" y="2.54" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="-68.58" y1="35.56" x2="-58.42" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="-68.834" y1="35.56" x2="-58.42" y2="35.56" width="0.1524" layer="91"/>
 <label x="-66.04" y="35.56" size="1.778" layer="95"/>
-<pinref part="HEAD_LOCK1" gate="G$1" pin="1"/>
+<pinref part="HEAD_LOCK2" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$5" class="0">
@@ -6841,9 +6927,12 @@ DPDT SMT slide switch, AYZ0202, SWCH-08179</description>
 <label x="63.5" y="12.7" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="HEAD_LOCK3" gate="G$1" pin="3"/>
-<wire x1="157.48" y1="7.62" x2="147.32" y2="7.62" width="0.1524" layer="91"/>
-<label x="147.32" y="7.62" size="1.778" layer="95"/>
+<wire x1="159.004" y1="6.35" x2="161.29" y2="6.35" width="0.1524" layer="91"/>
+<wire x1="161.29" y1="6.35" x2="147.828" y2="6.35" width="0.1524" layer="91"/>
+<wire x1="147.828" y1="6.35" x2="147.828" y2="6.604" width="0.1524" layer="91"/>
+<label x="148.336" y="6.35" size="1.778" layer="95"/>
+<pinref part="U$4" gate="G$1" pin="2"/>
+<junction x="161.29" y="6.35"/>
 </segment>
 </net>
 <net name="MOTOR2" class="0">
@@ -6853,9 +6942,11 @@ DPDT SMT slide switch, AYZ0202, SWCH-08179</description>
 <label x="63.5" y="-2.54" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="HEAD_LOCK3" gate="G$1" pin="1"/>
-<wire x1="157.48" y1="2.54" x2="147.32" y2="2.54" width="0.1524" layer="91"/>
-<label x="147.32" y="2.54" size="1.778" layer="95"/>
+<wire x1="159.004" y1="3.81" x2="161.29" y2="3.81" width="0.1524" layer="91"/>
+<label x="148.082" y="3.556" size="1.778" layer="95"/>
+<pinref part="U$4" gate="G$1" pin="1"/>
+<wire x1="161.29" y1="3.81" x2="148.082" y2="3.81" width="0.1524" layer="91"/>
+<junction x="161.29" y="3.81"/>
 </segment>
 </net>
 </nets>
