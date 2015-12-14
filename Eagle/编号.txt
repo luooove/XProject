@@ -16,7 +16,7 @@ i5_Light             光线
 i6_SlideDimmer       滑动变阻器
 i7_Moisture          土壤湿度
 i8_InfraredReflective接近传感器
-
+i9_ToggleSwitch      拨动开关
 
 
 
