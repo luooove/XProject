@@ -19106,10 +19106,10 @@ http://www.xganon.com</description>
 <pin name="D12" x="20.32" y="-10.16" visible="pin" length="middle" rot="R180"/>
 <pin name="D11" x="20.32" y="-12.7" visible="pin" length="middle" rot="R180"/>
 <pin name="D10" x="20.32" y="-15.24" visible="pin" length="middle" rot="R180"/>
-<pin name="A7" x="7.62" y="-22.86" visible="pin" length="short" rot="R90"/>
-<pin name="A6" x="2.54" y="-22.86" visible="pin" length="short" rot="R90"/>
-<pin name="A5" x="-5.08" y="-22.86" visible="pin" length="short" rot="R90"/>
-<pin name="A4" x="-10.16" y="-22.86" visible="pin" length="short" rot="R90"/>
+<pin name="A7" x="2.54" y="-2.54" visible="pin" length="point" rot="R180"/>
+<pin name="A6" x="2.54" y="-5.08" visible="pin" length="point" rot="R180"/>
+<pin name="A5" x="2.54" y="5.08" visible="pin" length="point" rot="R180"/>
+<pin name="A4" x="2.54" y="2.54" visible="pin" length="point" rot="R180"/>
 <wire x1="-17.78" y1="20.32" x2="15.24" y2="20.32" width="0.254" layer="94"/>
 <wire x1="15.24" y1="20.32" x2="15.24" y2="-20.32" width="0.254" layer="94"/>
 <wire x1="15.24" y1="-20.32" x2="-17.78" y2="-20.32" width="0.254" layer="94"/>
@@ -20258,22 +20258,12 @@ Sparkfun.com</description>
 <wire x1="335.28" y1="-60.96" x2="335.28" y2="-66.04" width="0.1524" layer="91"/>
 <label x="335.28" y="-68.58" size="1.778" layer="95" rot="R90"/>
 </segment>
-<segment>
-<pinref part="U$3" gate="G$1" pin="A5"/>
-<wire x1="332.74" y1="20.32" x2="337.82" y2="20.32" width="0.1524" layer="91"/>
-<label x="335.28" y="20.32" size="1.778" layer="95"/>
-</segment>
 </net>
 <net name="A4" class="0">
 <segment>
 <pinref part="PCB2" gate="G$1" pin="A4"/>
 <wire x1="332.74" y1="-60.96" x2="332.74" y2="-66.04" width="0.1524" layer="91"/>
 <label x="332.74" y="-68.58" size="1.778" layer="95" rot="R90"/>
-</segment>
-<segment>
-<pinref part="U$3" gate="G$1" pin="A4"/>
-<wire x1="332.74" y1="15.24" x2="337.82" y2="15.24" width="0.1524" layer="91"/>
-<label x="335.28" y="15.24" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="3.3V" class="0">
@@ -20295,20 +20285,6 @@ Sparkfun.com</description>
 <pinref part="PCB2" gate="G$1" pin="(N/C)"/>
 <wire x1="297.18" y1="-60.96" x2="297.18" y2="-66.04" width="0.1524" layer="91"/>
 <label x="297.18" y="-68.58" size="1.778" layer="95" rot="R90"/>
-</segment>
-</net>
-<net name="A7" class="0">
-<segment>
-<pinref part="U$3" gate="G$1" pin="A7"/>
-<wire x1="332.74" y1="33.02" x2="337.82" y2="33.02" width="0.1524" layer="91"/>
-<label x="335.28" y="33.02" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="A6" class="0">
-<segment>
-<pinref part="U$3" gate="G$1" pin="A6"/>
-<wire x1="332.74" y1="27.94" x2="337.82" y2="27.94" width="0.1524" layer="91"/>
-<label x="335.28" y="27.94" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
