@@ -12360,65 +12360,6 @@ package type SS</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="Connector ">
-<packages>
-<package name="7P-2.54-65/35MIL">
-<wire x1="-1.27" y1="8.89" x2="1.27" y2="8.89" width="0.127" layer="21"/>
-<wire x1="1.27" y1="8.89" x2="1.27" y2="-8.89" width="0.127" layer="21"/>
-<wire x1="1.27" y1="-8.89" x2="-1.27" y2="-8.89" width="0.127" layer="21"/>
-<wire x1="-1.27" y1="-8.89" x2="-1.27" y2="8.89" width="0.127" layer="21"/>
-<pad name="1" x="0" y="7.62" drill="0.889" diameter="1.651" shape="square"/>
-<pad name="2" x="0" y="5.08" drill="0.889" diameter="1.651"/>
-<pad name="3" x="0" y="2.54" drill="0.889" diameter="1.651"/>
-<pad name="4" x="0" y="0" drill="0.889" diameter="1.651"/>
-<pad name="5" x="0" y="-2.54" drill="0.889" diameter="1.651"/>
-<pad name="6" x="0" y="-5.08" drill="0.889" diameter="1.651"/>
-<text x="0.635" y="1.905" size="0.635" layer="27" ratio="10" rot="R90">&gt;value</text>
-<text x="-1.905" y="9.017" size="0.8128" layer="25" ratio="10">&gt;name</text>
-<pad name="7" x="0" y="-7.62" drill="0.889" diameter="1.651"/>
-</package>
-</packages>
-<symbols>
-<symbol name="HEADER-7P">
-<wire x1="-2.54" y1="8.89" x2="2.54" y2="8.89" width="0.254" layer="94"/>
-<wire x1="2.54" y1="8.89" x2="2.54" y2="-8.89" width="0.254" layer="94"/>
-<wire x1="2.54" y1="-8.89" x2="-2.54" y2="-8.89" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="-8.89" x2="-2.54" y2="8.89" width="0.254" layer="94"/>
-<text x="-2.54" y="8.89" size="1.27" layer="95">&gt;name</text>
-<text x="0" y="-2.54" size="1.27" layer="96" rot="R90">&gt;value</text>
-<pin name="1" x="-7.62" y="7.62" visible="pad" length="middle" function="dotclk"/>
-<pin name="2" x="-7.62" y="5.08" visible="pad" length="middle"/>
-<pin name="3" x="-7.62" y="2.54" visible="pad" length="middle"/>
-<pin name="4" x="-7.62" y="0" visible="pad" length="middle"/>
-<pin name="5" x="-7.62" y="-2.54" visible="pad" length="middle"/>
-<pin name="6" x="-7.62" y="-5.08" visible="pad" length="middle"/>
-<pin name="7" x="-7.62" y="-7.62" visible="pad" length="middle"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="HEADER-7P" prefix="J" uservalue="yes">
-<gates>
-<gate name="G$1" symbol="HEADER-7P" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="7P-2.54-65/35MIL">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="3" pad="3"/>
-<connect gate="G$1" pin="4" pad="4"/>
-<connect gate="G$1" pin="5" pad="5"/>
-<connect gate="G$1" pin="6" pad="6"/>
-<connect gate="G$1" pin="7" pad="7"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="Discrete">
 <packages>
 <package name="HC49S">
@@ -19199,7 +19140,6 @@ http://www.element14.com/community/community/knode/cadsoft_eagle</description>
 <part name="C7" library="Discrete" deviceset="C*" device="-0402" value="10nF"/>
 <part name="U$10" library="Power or GND " deviceset="GND_POWER" device=""/>
 <part name="U$4" library="Power or GND " deviceset="GND_POWER" device=""/>
-<part name="J3" library="Connector " deviceset="HEADER-7P" device="" value="1X7P-2.54-2.54-6.0-90D-1"/>
 <part name="C2" library="SmartPrj" deviceset="C-EU" device="0603-RND" value="100n"/>
 <part name="GND7" library="supply1" deviceset="GND" device=""/>
 <part name="PC1" library="rcl" deviceset="CPOL-EU" device="D" value="47u"/>
@@ -19270,7 +19210,6 @@ http://www.element14.com/community/community/knode/cadsoft_eagle</description>
 <instance part="C7" gate="C" x="148.59" y="22.86" rot="R180"/>
 <instance part="U$10" gate="G$1" x="142.24" y="22.86" rot="R270"/>
 <instance part="U$4" gate="G$1" x="132.08" y="31.75"/>
-<instance part="J3" gate="G$1" x="203.2" y="11.43" rot="R270"/>
 <instance part="C2" gate="G$1" x="109.22" y="-45.72" smashed="yes" rot="R180">
 <attribute name="NAME" x="101.6" y="-43.18" size="1.778" layer="95"/>
 <attribute name="VALUE" x="101.6" y="-45.72" size="1.778" layer="96"/>
@@ -19426,11 +19365,6 @@ http://www.element14.com/community/community/knode/cadsoft_eagle</description>
 <pinref part="U1" gate="G$1" pin="GND"/>
 <pinref part="U$2" gate="G$1" pin="GND"/>
 <wire x1="154.94" y1="15.24" x2="157.48" y2="15.24" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<wire x1="198.12" y1="19.05" x2="198.12" y2="25.4" width="0.1524" layer="91"/>
-<label x="198.12" y="24.13" size="1.27" layer="95" ratio="10" rot="R270"/>
-<pinref part="J3" gate="G$1" pin="6"/>
 </segment>
 <segment>
 <pinref part="U$5" gate="G$1" pin="GND"/>
@@ -19608,11 +19542,6 @@ http://www.element14.com/community/community/knode/cadsoft_eagle</description>
 <wire x1="196.85" y1="-22.86" x2="196.85" y2="-15.24" width="0.1524" layer="91"/>
 <junction x="196.85" y="-15.24"/>
 </segment>
-<segment>
-<wire x1="203.2" y1="19.05" x2="203.2" y2="25.4" width="0.1524" layer="91"/>
-<label x="203.2" y="24.13" size="1.27" layer="95" ratio="10" rot="R270"/>
-<pinref part="J3" gate="G$1" pin="4"/>
-</segment>
 </net>
 <net name="V3" class="0">
 <segment>
@@ -19648,11 +19577,6 @@ http://www.element14.com/community/community/knode/cadsoft_eagle</description>
 </net>
 <net name="DTR" class="0">
 <segment>
-<wire x1="210.82" y1="19.05" x2="210.82" y2="25.4" width="0.1524" layer="91"/>
-<label x="210.82" y="24.13" size="1.27" layer="95" ratio="10" rot="R270"/>
-<pinref part="J3" gate="G$1" pin="1"/>
-</segment>
-<segment>
 <pinref part="U1" gate="G$1" pin="DTR#"/>
 <wire x1="177.8" y1="20.32" x2="182.88" y2="20.32" width="0.1524" layer="91"/>
 <label x="179.07" y="20.32" size="1.27" layer="95" ratio="10"/>
@@ -19670,7 +19594,6 @@ http://www.element14.com/community/community/knode/cadsoft_eagle</description>
 <wire x1="208.28" y1="33.02" x2="210.82" y2="33.02" width="0.1524" layer="91"/>
 <pinref part="D1" gate="G$1" pin="2"/>
 <wire x1="210.82" y1="33.02" x2="210.82" y2="34.29" width="0.1524" layer="91"/>
-<pinref part="J3" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <pinref part="U1" gate="G$1" pin="RXD"/>
@@ -19705,7 +19628,6 @@ http://www.element14.com/community/community/knode/cadsoft_eagle</description>
 <pinref part="D1" gate="G$1" pin="1"/>
 <wire x1="205.74" y1="33.02" x2="203.2" y2="33.02" width="0.1524" layer="91"/>
 <wire x1="203.2" y1="33.02" x2="203.2" y2="34.29" width="0.1524" layer="91"/>
-<pinref part="J3" gate="G$1" pin="3"/>
 </segment>
 <segment>
 <pinref part="U1" gate="G$1" pin="TXD"/>
@@ -19734,11 +19656,6 @@ http://www.element14.com/community/community/knode/cadsoft_eagle</description>
 </segment>
 </net>
 <net name="CTS" class="0">
-<segment>
-<wire x1="200.66" y1="19.05" x2="200.66" y2="25.4" width="0.1524" layer="91"/>
-<label x="200.66" y="24.13" size="1.27" layer="95" ratio="10" rot="R270"/>
-<pinref part="J3" gate="G$1" pin="5"/>
-</segment>
 <segment>
 <pinref part="U1" gate="G$1" pin="CTS#"/>
 <wire x1="177.8" y1="10.16" x2="182.88" y2="10.16" width="0.1524" layer="91"/>
@@ -19792,18 +19709,6 @@ http://www.element14.com/community/community/knode/cadsoft_eagle</description>
 <pinref part="PWR" gate="LED" pin="-"/>
 <pinref part="R5" gate="R" pin="2"/>
 <wire x1="196.85" y1="-39.37" x2="196.85" y2="-30.48" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="RTS" class="0">
-<segment>
-<pinref part="U1" gate="G$1" pin="RTS#"/>
-<wire x1="181.61" y1="22.86" x2="177.8" y2="22.86" width="0.1524" layer="91"/>
-<label x="179.07" y="22.86" size="1.27" layer="95" ratio="10"/>
-</segment>
-<segment>
-<pinref part="J3" gate="G$1" pin="7"/>
-<wire x1="195.58" y1="19.05" x2="195.58" y2="25.4" width="0.1524" layer="91"/>
-<label x="195.58" y="24.13" size="1.27" layer="95" ratio="10" rot="R270"/>
 </segment>
 </net>
 <net name="+5V" class="3">
@@ -20183,7 +20088,7 @@ http://www.element14.com/community/community/knode/cadsoft_eagle</description>
 </segment>
 <segment>
 <wire x1="307.34" y1="-17.78" x2="307.34" y2="-12.7" width="0.1524" layer="91"/>
-<label x="307.34" y="-15.24" size="1.778" layer="95" rot="R90"/>
+<label x="307.34" y="-12.7" size="1.778" layer="95" rot="R90"/>
 <pinref part="PCB1" gate="G$1" pin="~9"/>
 </segment>
 </net>
