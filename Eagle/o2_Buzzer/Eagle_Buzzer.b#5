@@ -7212,7 +7212,7 @@ design rules under a new name.</description>
 <element name="U$4" library="Xmaker" package="DIMENSION_2MM*2MM" value="DIMENSION_2MM2MM" x="-9.652" y="-9.144"/>
 <element name="U$5" library="Xmaker" package="XMAKERLOGO_2.5MM_TOP" value="XMAKERLOGO_2.5MM_TOP" x="1.524" y="8.128" rot="MR180"/>
 <element name="U$6" library="Xmaker" package="OPENSOURCELOGO_2.5MM" value="OPENHARDWARE_2.5MM_TOP" x="5.08" y="8.128" rot="MR180"/>
-<element name="U$7" library="Xmaker" package="NAME_BUZZER" value="NAME_BUZZER" x="1.524" y="-9.144"/>
+<element name="U$7" library="Xmaker" package="NAME_BUZZER" value="NAME_BUZZER" x="0.508" y="-9.144"/>
 </elements>
 <signals>
 <signal name="GND" airwireshidden="yes">
@@ -7220,20 +7220,19 @@ design rules under a new name.</description>
 <polygon width="0.2032" layer="1" isolate="0.254">
 <vertex x="-12.7" y="-10.16"/>
 <vertex x="12.7" y="-10.16"/>
-<vertex x="12.7" y="10.16"/>
-<vertex x="-12.7" y="10.16"/>
+<vertex x="12.7" y="11.684"/>
+<vertex x="-12.7" y="11.684"/>
 </polygon>
 <polygon width="0.2032" layer="16" isolate="0.254">
 <vertex x="-12.7" y="-10.16"/>
 <vertex x="12.7" y="-10.16"/>
-<vertex x="12.7" y="10.16"/>
-<vertex x="-12.7" y="10.16"/>
-<vertex x="-12.7" y="-10.033"/>
+<vertex x="12.7" y="11.684"/>
+<vertex x="-12.7" y="11.684"/>
 </polygon>
 <via x="6.096" y="4.445" extent="1-16" drill="0.3048" diameter="0.635"/>
 <via x="6.096" y="-3.81" extent="1-16" drill="0.3048" diameter="0.635"/>
 <via x="-3.175" y="5.08" extent="1-16" drill="0.3048" diameter="0.635"/>
-<via x="-4.191" y="-6.985" extent="1-16" drill="0.3048" diameter="0.635"/>
+<via x="-4.191" y="-5.969" extent="1-16" drill="0.3048" diameter="0.635"/>
 <contactref element="H1" pad="3"/>
 </signal>
 <signal name="VCC">

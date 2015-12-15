@@ -7220,15 +7220,14 @@ design rules under a new name.</description>
 <polygon width="0.2032" layer="1" isolate="0.254">
 <vertex x="-12.7" y="-10.16"/>
 <vertex x="12.7" y="-10.16"/>
-<vertex x="12.7" y="10.16"/>
-<vertex x="-12.7" y="10.16"/>
+<vertex x="12.7" y="11.684"/>
+<vertex x="-12.7" y="11.684"/>
 </polygon>
 <polygon width="0.2032" layer="16" isolate="0.254">
 <vertex x="-12.7" y="-10.16"/>
 <vertex x="12.7" y="-10.16"/>
-<vertex x="12.7" y="10.16"/>
-<vertex x="-12.7" y="10.16"/>
-<vertex x="-12.7" y="-10.033"/>
+<vertex x="12.7" y="11.684"/>
+<vertex x="-12.7" y="11.684"/>
 </polygon>
 <via x="6.096" y="4.445" extent="1-16" drill="0.3048" diameter="0.635"/>
 <via x="6.096" y="-3.81" extent="1-16" drill="0.3048" diameter="0.635"/>
@@ -7260,7 +7259,9 @@ design rules under a new name.</description>
 <signal name="D1">
 <contactref element="H1" pad="1"/>
 <contactref element="R1" pad="1"/>
-<wire x1="-7.62" y1="6.858" x2="-5.207" y2="2.667" width="0" layer="19" extent="1-1"/>
+<wire x1="-5.207" y1="2.667" x2="-5.715" y2="2.667" width="0.6096" layer="1"/>
+<wire x1="-5.715" y1="2.667" x2="-7.62" y2="4.572" width="0.6096" layer="1"/>
+<wire x1="-7.62" y1="4.572" x2="-7.62" y2="6.858" width="0.6096" layer="1"/>
 </signal>
 </signals>
 </board>

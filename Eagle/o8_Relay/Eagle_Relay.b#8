@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="1" unitdist="mil" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -667,20 +667,6 @@
 &lt;/ul&gt;&lt;/p&gt;
 &lt;p&gt;&lt;b&gt;Doublecheck before using!&lt;/b&gt;&lt;/p&gt;</description>
 <packages>
-<package name="HEAD_LOCK">
-<pad name="1" x="0.0254" y="2.4892" drill="0.8" shape="square"/>
-<pad name="2" x="0.0254" y="-0.0508" drill="0.8" rot="R90"/>
-<pad name="3" x="0.0254" y="-2.5908" drill="0.8" rot="R90"/>
-<wire x1="1.2954" y1="5.0292" x2="-2.5146" y2="5.0292" width="0.127" layer="21"/>
-<wire x1="-2.5146" y1="5.0292" x2="-2.5146" y2="-5.1308" width="0.127" layer="21"/>
-<wire x1="-2.5146" y1="-5.1308" x2="1.2954" y2="-5.1308" width="0.127" layer="21"/>
-<text x="-0.212" y="-0.0798" size="1.27" layer="21" rot="R270">&gt;NAME</text>
-<wire x1="1.2954" y1="5.0292" x2="1.2954" y2="-5.1308" width="0.127" layer="21"/>
-<wire x1="1.2454" y1="-5.1308" x2="1.2454" y2="-5.1408" width="0.127" layer="21"/>
-<wire x1="-7" y1="5" x2="-7" y2="-5.1" width="0.127" layer="21"/>
-<wire x1="-7" y1="-5.1" x2="-2.5" y2="-5.1" width="0.127" layer="21"/>
-<wire x1="-7" y1="5" x2="-2.5" y2="5" width="0.127" layer="21"/>
-</package>
 <package name="DIMENSION_2MM*4MM">
 <wire x1="30.106" y1="21.95" x2="30.306" y2="21.95" width="0" layer="20"/>
 <wire x1="2" y1="0" x2="38" y2="0" width="0.127" layer="20"/>
@@ -6520,6 +6506,52 @@
 </package>
 </packages>
 </library>
+<library name="Xmaker_yuhuilbr">
+<description>&lt;b&gt;Diptronics THMD &amp; SMD tact switches&lt;/b&gt;
+&lt;p&gt;&lt;ul&gt;
+&lt;li&gt;DTS-3: 3.5x6mm THMD tact switch
+&lt;li&gt;DTS-6, DTS-64: 6x6mm THMD tact switch
+&lt;li&gt;DTSM-3: 3.5x6mm SMD tact switch
+&lt;li&gt;DTSM-6, DTSM-64: 6x6mm SMD tact switch
+&lt;/ul&gt;&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Doublecheck before using!&lt;/b&gt;&lt;/p&gt;</description>
+<packages>
+<package name="HEAD_LOCK">
+<pad name="1" x="0.0254" y="2.4892" drill="0.8" shape="square"/>
+<pad name="2" x="0.0254" y="-0.0508" drill="0.8" rot="R90"/>
+<pad name="3" x="0.0254" y="-2.5908" drill="0.8" rot="R90"/>
+<wire x1="1.2954" y1="5.0292" x2="-2.5146" y2="5.0292" width="0.127" layer="21"/>
+<wire x1="-2.5146" y1="5.0292" x2="-2.5146" y2="-5.1308" width="0.127" layer="21"/>
+<wire x1="-2.5146" y1="-5.1308" x2="1.2954" y2="-5.1308" width="0.127" layer="21"/>
+<text x="-0.212" y="-0.0798" size="1.27" layer="21" rot="R270">&gt;NAME</text>
+<wire x1="1.2954" y1="5.0292" x2="1.2954" y2="-5.1308" width="0.127" layer="21"/>
+<wire x1="1.2454" y1="-5.1308" x2="1.2454" y2="-5.1408" width="0.127" layer="21"/>
+<wire x1="-7" y1="5" x2="-7" y2="-5.1" width="0.127" layer="21"/>
+<wire x1="-7" y1="-5.1" x2="-2.5" y2="-5.1" width="0.127" layer="21"/>
+<wire x1="-7" y1="5" x2="-2.5" y2="5" width="0.127" layer="21"/>
+<text x="5.842" y="-3.048" size="1.27" layer="22" rot="MR0">GND</text>
+<text x="5.842" y="-0.762" size="1.27" layer="22" rot="MR0">VCC</text>
+<text x="5.842" y="1.778" size="1.27" layer="22" rot="MR0">SIG</text>
+<wire x1="1.27" y1="3.81" x2="6.858" y2="3.81" width="0.127" layer="22"/>
+<wire x1="6.858" y1="3.81" x2="6.858" y2="1.27" width="0.127" layer="22"/>
+<wire x1="6.858" y1="1.27" x2="6.858" y2="-1.27" width="0.127" layer="22"/>
+<wire x1="6.858" y1="-1.27" x2="6.858" y2="-3.81" width="0.127" layer="22"/>
+<wire x1="6.858" y1="-3.81" x2="1.27" y2="-3.81" width="0.127" layer="22"/>
+<wire x1="1.27" y1="1.27" x2="6.858" y2="1.27" width="0.127" layer="22"/>
+<wire x1="1.27" y1="-1.27" x2="6.858" y2="-1.27" width="0.127" layer="22"/>
+<wire x1="1.27" y1="3.81" x2="1.27" y2="1.27" width="0.127" layer="22"/>
+<wire x1="1.27" y1="1.27" x2="1.27" y2="-1.27" width="0.127" layer="22"/>
+<wire x1="1.27" y1="-1.27" x2="1.27" y2="-3.81" width="0.127" layer="22"/>
+<wire x1="1.27" y1="3.81" x2="-1.27" y2="3.81" width="0.127" layer="22"/>
+<wire x1="-1.27" y1="3.81" x2="-1.27" y2="1.27" width="0.127" layer="22"/>
+<wire x1="-1.27" y1="1.27" x2="-1.27" y2="-1.27" width="0.127" layer="22"/>
+<wire x1="-1.27" y1="-1.27" x2="-1.27" y2="-3.81" width="0.127" layer="22"/>
+<wire x1="-1.27" y1="-3.81" x2="1.27" y2="-3.81" width="0.127" layer="22"/>
+<wire x1="-1.27" y1="1.27" x2="1.27" y2="1.27" width="0.127" layer="22"/>
+<wire x1="-1.27" y1="-1.27" x2="1.27" y2="-1.27" width="0.127" layer="22"/>
+</package>
+</packages>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -6718,30 +6750,21 @@ design rules under a new name.</description>
 <element name="U1" library="Seeed" package="RELAY" value="HLS8L-DC3V-S-C" x="16.51" y="16.51" smashed="yes">
 <attribute name="NAME" x="20.43" y="13.59" size="1.016" layer="25"/>
 </element>
-<element name="R3" library="Discrete" package="R0603" value="47k" x="9.644" y="7.14" smashed="yes" rot="R90">
-<attribute name="NAME" x="10.882" y="5.743" size="1.016" layer="25" ratio="10" rot="R90"/>
+<element name="R3" library="Discrete" package="R0603" value="47k" x="9.5076" y="6.449" smashed="yes" rot="R270">
+<attribute name="NAME" x="8.2696" y="7.846" size="1.016" layer="25" ratio="10" rot="R270"/>
 </element>
-<element name="HEAD_LOCK1" library="Xmaker_yuhui" package="HEAD_LOCK" value="HEAD_LOCK" x="7" y="10" smashed="yes"/>
 <element name="U$6" library="Xmaker_yuhui" package="DIMENSION_2MM*4MM" value="DIMENSION_4MM2MM" x="0" y="0"/>
 <element name="U$7" library="Xmaker_yuhui" package="XMAKERLOGO_2.5MM_TOP" value="XMAKERLOGO_2.5MM_TOP" x="35.01" y="3.93" rot="R90"/>
 <element name="U$2" library="Xmaker_yuhui" package="OPENSOURCELOGO_2.5MM" value="OPENHARDWARE_TOP_2.5MM" x="35.052" y="16.002" rot="R90"/>
+<element name="HEAD_LOCK2" library="Xmaker_yuhuilbr" package="HEAD_LOCK" value="HEAD_LOCK" x="7" y="10"/>
 </elements>
 <signals>
 <signal name="GND">
-<contactref element="HEAD_LOCK1" pad="3"/>
 <contactref element="Q1" pad="2"/>
 <contactref element="R3" pad="2"/>
 <contactref element="J1" pad="2"/>
-<wire x1="7.0254" y1="7.4092" x2="7.0254" y2="3.9876" width="0.4064" layer="1"/>
-<wire x1="7.0254" y1="3.9876" x2="7.523" y2="3.49" width="0.4064" layer="1"/>
-<wire x1="7.0254" y1="7.4092" x2="7.0254" y2="3.8966" width="0.6096" layer="1"/>
-<wire x1="7.0254" y1="3.8966" x2="7.112" y2="3.81" width="0.6096" layer="1"/>
-<wire x1="7.112" y1="3.81" x2="7.366" y2="3.81" width="0.6096" layer="1"/>
-<wire x1="7.366" y1="3.81" x2="7.62" y2="3.556" width="0.6096" layer="1"/>
-<wire x1="36" y1="8.222" x2="9.964" y2="8.222" width="0.6096" layer="1"/>
-<wire x1="9.964" y1="8.222" x2="9.644" y2="7.902" width="0.6096" layer="1"/>
-<wire x1="9.644" y1="7.902" x2="7.5182" y2="7.902" width="0.6096" layer="1"/>
-<wire x1="7.5182" y1="7.902" x2="7.0254" y2="7.4092" width="0.6096" layer="1"/>
+<wire x1="7.0254" y1="3.9876" x2="7.523" y2="3.49" width="0" layer="19" extent="1-16"/>
+<wire x1="36" y1="8.222" x2="15.7912" y2="8.222" width="0.6096" layer="1"/>
 <polygon width="0.6096" layer="1">
 <vertex x="-0.3048" y="20.1168"/>
 <vertex x="40.3606" y="20.1168"/>
@@ -6763,16 +6786,32 @@ design rules under a new name.</description>
 <vertex x="-1.7018" y="-0.9144"/>
 <vertex x="-1.7018" y="21.6408"/>
 </polygon>
+<wire x1="15.7912" y1="8.222" x2="13.1826" y2="5.6134" width="0.6096" layer="1"/>
+<wire x1="13.1826" y1="5.6134" x2="9.5812" y2="5.6134" width="0.6096" layer="1"/>
+<wire x1="9.5812" y1="5.6134" x2="9.5076" y2="5.687" width="0.6096" layer="1"/>
+<contactref element="HEAD_LOCK2" pad="3"/>
+<wire x1="7.523" y1="3.49" x2="7.523" y2="4.9576" width="0.6096" layer="1"/>
+<wire x1="7.523" y1="4.9576" x2="7.6962" y2="5.1308" width="0.6096" layer="1"/>
+<wire x1="7.6962" y1="5.1308" x2="8.9514" y2="5.1308" width="0.6096" layer="1"/>
+<wire x1="8.9514" y1="5.1308" x2="9.5076" y2="5.687" width="0.6096" layer="1"/>
+<wire x1="7.0254" y1="7.4092" x2="7.0254" y2="5.4552" width="0.6096" layer="1"/>
+<wire x1="7.0254" y1="5.4552" x2="7.523" y2="4.9576" width="0.6096" layer="1"/>
 </signal>
 <signal name="VCC">
-<contactref element="HEAD_LOCK1" pad="2"/>
 <contactref element="U1" pad="2"/>
 <contactref element="U1" pad="4"/>
 <wire x1="28.702" y1="4.318" x2="16.51" y2="4.318" width="0.6096" layer="1"/>
-<wire x1="16.51" y1="4.318" x2="15.494" y2="4.318" width="0.6096" layer="16"/>
-<wire x1="15.494" y1="4.318" x2="9.906" y2="9.906" width="0.6096" layer="16"/>
-<wire x1="9.906" y1="9.906" x2="7.0686" y2="9.906" width="0.6096" layer="16"/>
-<wire x1="7.0686" y1="9.906" x2="7.0254" y2="9.9492" width="0.6096" layer="16"/>
+<wire x1="16.51" y1="4.318" x2="15.4178" y2="4.318" width="0.6096" layer="16"/>
+<wire x1="15.4178" y1="4.318" x2="12.7254" y2="1.6256" width="0.6096" layer="16"/>
+<wire x1="12.7254" y1="1.6256" x2="6.0198" y2="1.6256" width="0.6096" layer="16"/>
+<wire x1="6.0198" y1="1.6256" x2="5.4356" y2="2.2098" width="0.6096" layer="16"/>
+<wire x1="5.4356" y1="2.2098" x2="5.4356" y2="2.2606" width="0.6096" layer="16"/>
+<wire x1="5.4356" y1="2.2606" x2="3.4544" y2="4.2418" width="0.6096" layer="16"/>
+<wire x1="3.4544" y1="4.2418" x2="3.4544" y2="8.0264" width="0.6096" layer="16"/>
+<wire x1="3.4544" y1="8.0264" x2="5.1308" y2="9.7028" width="0.6096" layer="16"/>
+<wire x1="5.1308" y1="9.7028" x2="6.779" y2="9.7028" width="0.6096" layer="16"/>
+<contactref element="HEAD_LOCK2" pad="2"/>
+<wire x1="7.0254" y1="9.9492" x2="6.779" y2="9.7028" width="0.6096" layer="16"/>
 </signal>
 <signal name="COM">
 <contactref element="U1" pad="1"/>
@@ -6789,27 +6828,30 @@ design rules under a new name.</description>
 <wire x1="3.302" y1="13.716" x2="5.588" y2="16.002" width="0.6096" layer="1"/>
 <wire x1="5.588" y1="16.002" x2="16.002" y2="16.002" width="0.6096" layer="1"/>
 <wire x1="16.002" y1="16.002" x2="16.51" y2="16.51" width="0.6096" layer="1"/>
-<contactref element="U1" pad="5"/>
-<wire x1="28.702" y1="16.51" x2="16.51" y2="16.51" width="0.6096" layer="16"/>
 </signal>
 <signal name="D1">
-<contactref element="HEAD_LOCK1" pad="1"/>
 <contactref element="R1" pad="1"/>
-<wire x1="7.0254" y1="12.4892" x2="7.6632" y2="12.4892" width="0.6096" layer="1"/>
 <wire x1="7.6632" y1="12.4892" x2="8.382" y2="13.208" width="0.6096" layer="1"/>
 <wire x1="8.382" y1="13.208" x2="9.404" y2="13.208" width="0.6096" layer="1"/>
 <wire x1="9.404" y1="13.208" x2="9.61" y2="13.002" width="0.6096" layer="1"/>
+<contactref element="HEAD_LOCK2" pad="1"/>
+<wire x1="7.6632" y1="12.4892" x2="7.0254" y2="12.4892" width="0.6096" layer="1"/>
 </signal>
 <signal name="N$2">
 <contactref element="Q1" pad="1"/>
 <contactref element="R1" pad="2"/>
 <contactref element="R3" pad="1"/>
-<wire x1="9.61" y1="11.478" x2="9.61" y2="9.948" width="0.6096" layer="1"/>
-<wire x1="9.61" y1="9.948" x2="9.652" y2="9.906" width="0.6096" layer="1"/>
-<wire x1="9.652" y1="9.906" x2="9.652" y2="7.874" width="0.6096" layer="1"/>
-<wire x1="9.644" y1="6.378" x2="9.644" y2="3.833" width="0.6096" layer="1"/>
 <wire x1="9.644" y1="3.833" x2="9.301" y2="3.49" width="0.6096" layer="1"/>
-<wire x1="9.644" y1="6.378" x2="9.652" y2="7.874" width="0" layer="19" extent="1-1"/>
+<wire x1="9.5076" y1="7.211" x2="9.5076" y2="11.3756" width="0.6096" layer="1"/>
+<wire x1="9.5076" y1="11.3756" x2="9.61" y2="11.478" width="0.6096" layer="1"/>
+<wire x1="9.644" y1="3.833" x2="11.3054" y2="3.833" width="0.6096" layer="1"/>
+<wire x1="11.3054" y1="3.833" x2="11.4046" y2="3.7338" width="0.6096" layer="1"/>
+<via x="11.4046" y="3.7338" extent="1-16" drill="0.6" shape="square"/>
+<wire x1="11.4046" y1="3.7338" x2="11.4046" y2="11.2522" width="0.6096" layer="16"/>
+<wire x1="11.4046" y1="11.2522" x2="11.3792" y2="11.2776" width="0.6096" layer="16"/>
+<via x="11.3792" y="11.2776" extent="1-16" drill="0.6" shape="square"/>
+<wire x1="11.3792" y1="11.2776" x2="9.8104" y2="11.2776" width="0.6096" layer="1"/>
+<wire x1="9.8104" y1="11.2776" x2="9.61" y2="11.478" width="0.6096" layer="1"/>
 </signal>
 </signals>
 </board>
