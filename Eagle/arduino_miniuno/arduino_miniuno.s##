@@ -16734,11 +16734,6 @@ Standard decoupling cap</description>
 <pinref part="R6" gate="R" pin="1"/>
 </segment>
 <segment>
-<pinref part="U$3" gate="G$1" pin="RAW"/>
-<wire x1="297.18" y1="45.72" x2="297.18" y2="50.8" width="0.1524" layer="91"/>
-<label x="297.18" y="45.72" size="1.778" layer="95" rot="R90"/>
-</segment>
-<segment>
 <wire x1="314.96" y1="-60.706" x2="314.96" y2="-66.04" width="0.1524" layer="91"/>
 <label x="314.96" y="-68.58" size="1.778" layer="95" rot="R90"/>
 <pinref part="PCB1" gate="G$1" pin="VIN"/>
