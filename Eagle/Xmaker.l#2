@@ -38667,6 +38667,18 @@ DIMMER</text>
 </device>
 </devices>
 </deviceset>
+<deviceset name="NAME_SILDEDIMMER">
+<gates>
+<gate name="G$1" symbol="NAME_SLIDEIMMER" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="NAME_SLIDEMIMMER">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 </drawing>

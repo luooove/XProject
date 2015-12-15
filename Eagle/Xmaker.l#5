@@ -38643,6 +38643,18 @@ DIMMER</text>
 </device>
 </devices>
 </deviceset>
+<deviceset name="NAME_SOUND">
+<gates>
+<gate name="G$1" symbol="NAME_SOUND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="NAME_SOUND">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 </drawing>

@@ -38657,9 +38657,10 @@ DIMMER</text>
 </deviceset>
 <deviceset name="NAME_LIGHT">
 <gates>
+<gate name="G$1" symbol="NAME_LIGHT" x="0" y="0"/>
 </gates>
 <devices>
-<device name="">
+<device name="" package="NAME_LIGHT">
 <technologies>
 <technology name=""/>
 </technologies>

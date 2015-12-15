@@ -38610,9 +38610,10 @@ DIMMER</text>
 </deviceset>
 <deviceset name="NAME_BUZZER">
 <gates>
+<gate name="G$1" symbol="NAME_BUZZER" x="0" y="0"/>
 </gates>
 <devices>
-<device name="">
+<device name="" package="NAME_BUZZER">
 <technologies>
 <technology name=""/>
 </technologies>
