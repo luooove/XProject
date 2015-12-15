@@ -184,7 +184,7 @@
 <rectangle x1="4.064" y1="17.653" x2="4.2164" y2="17.6784" layer="21" rot="R270"/>
 <rectangle x1="3.7465" y1="16.9799" x2="4.5339" y2="17.0053" layer="21" rot="R270"/>
 <rectangle x1="4.0894" y1="19.5326" x2="4.2418" y2="19.558" layer="21" rot="R270"/>
-<rectangle x1="4.0005" y1="19.0119" x2="4.3307" y2="19.0373" layer="21" rot="R270"/>
+<rectangle x1="4.0005" y1="18.5039" x2="4.3307" y2="18.5293" layer="21" rot="R270"/>
 <rectangle x1="4.0386" y1="18.4404" x2="4.2926" y2="18.4658" layer="21" rot="R270"/>
 <rectangle x1="4.1021" y1="17.9451" x2="4.2291" y2="17.9705" layer="21" rot="R270"/>
 <rectangle x1="4.0894" y1="17.6276" x2="4.2418" y2="17.653" layer="21" rot="R270"/>
@@ -511,7 +511,6 @@
 <rectangle x1="5.5118" y1="17.9578" x2="5.5626" y2="17.9832" layer="21" rot="R270"/>
 <rectangle x1="5.4864" y1="17.0434" x2="5.588" y2="17.0688" layer="21" rot="R270"/>
 <rectangle x1="5.5499" y1="18.7833" x2="5.5753" y2="18.8087" layer="21" rot="R270"/>
-<text x="0" y="-0.127" size="0.0508" layer="21" font="vector">C:/Users/Xiangzi/Desktop/Ãû³Æ/KEY.bmp</text>
 <text x="18.288" y="10.668" size="1.27" layer="22" ratio="3" rot="MR270">Button</text>
 </plain>
 <libraries>

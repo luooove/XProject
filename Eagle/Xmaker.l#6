@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -37175,6 +37175,8 @@
 <rectangle x1="-2.7813" y1="2.7305" x2="-2.5273" y2="2.7559" layer="21"/>
 <rectangle x1="-2.7305" y1="2.7559" x2="-2.5781" y2="2.7813" layer="21"/>
 </package>
+<package name="NAME_TILT">
+</package>
 </packages>
 <symbols>
 <symbol name="TS">
@@ -37883,6 +37885,7 @@ DIMMER</text>
 </deviceset>
 <deviceset name="NAME_LILT">
 <gates>
+<gate name="G$1" symbol="NAME_TILT" x="0" y="0"/>
 </gates>
 <devices>
 <device name="">

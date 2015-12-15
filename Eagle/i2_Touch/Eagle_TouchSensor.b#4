@@ -7067,10 +7067,10 @@ design rules under a new name.</description>
 </autorouter>
 <elements>
 <element name="U1" library="Seeed" package="SOT23-6L" value="TTP223" x="1.27" y="3.302" smashed="yes" rot="R180">
-<attribute name="NAME" x="2.8702" y="3.8862" size="0.8128" layer="25" font="vector" ratio="10" rot="SR270"/>
+<attribute name="NAME" x="0.6858" y="2.8702" size="0.8128" layer="25" font="vector" ratio="10"/>
 </element>
 <element name="C1" library="CPT_SMD" package="0603" value="27PF" x="1.2192" y="6.2484" smashed="yes" rot="R180">
-<attribute name="NAME" x="2.9464" y="6.7818" size="0.8128" layer="25" font="vector" ratio="10" rot="SR270"/>
+<attribute name="NAME" x="0.5842" y="7.2644" size="0.8128" layer="25" font="vector" ratio="10"/>
 <attribute name="C0603" value="100N" x="1.2192" y="6.2484" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="R1" library="CPT_SMD" package="0603" value="1k" x="16.1036" y="1.6256" smashed="yes">
@@ -7083,9 +7083,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="16.4084" y="7.2644" size="0.8128" layer="25" font="vector" ratio="10"/>
 </element>
 <element name="P1" library="Discrete" package="1P-D450" value="" x="8.89" y="12.954" rot="MR0"/>
-<element name="H1" library="Xmaker" package="HEAD_LOCK_3PIN_2" value="HEAD_LOCK_3PIN_2" x="9.017" y="4.572" smashed="yes" rot="R90">
-<attribute name="NAME" x="12.017" y="7.604" size="1.27" layer="21"/>
-</element>
+<element name="H1" library="Xmaker" package="HEAD_LOCK_3PIN_2" value="HEAD_LOCK_3PIN_2" x="9.017" y="4.572" rot="R90"/>
 <element name="U$2" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="" x="8.8138" y="12.4714"/>
 <element name="U$1" library="Xmaker_yuhui" package="XMAKERLOGO" value="XMAKERLOGO" x="19.304" y="13.208" rot="MR270"/>
 <element name="U$3" library="Xmaker" package="DIMENSION_2MM*2MM" value="DIMENSION_2MM2MM" x="-0.762" y="0"/>
@@ -7154,9 +7152,9 @@ design rules under a new name.</description>
 <wire x1="1.9812" y1="0.889" x2="2.2098" y2="1.1176" width="0.508" layer="1"/>
 <wire x1="2.2098" y1="1.1176" x2="2.2098" y2="1.9918" width="0.508" layer="1"/>
 <wire x1="2.2098" y1="1.9918" x2="2.22" y2="2.002" width="0.508" layer="1"/>
-<wire x1="2.22" y1="2.002" x2="7.65" y2="2.002" width="0.4064" layer="1"/>
-<wire x1="15.2146" y1="1.6256" x2="8.0264" y2="1.6256" width="0.4064" layer="1"/>
-<wire x1="8.0264" y1="1.6256" x2="7.65" y2="2.002" width="0.4064" layer="1"/>
+<wire x1="2.22" y1="2.002" x2="11.968" y2="2.002" width="0.4064" layer="1"/>
+<wire x1="15.2146" y1="1.6256" x2="12.3444" y2="1.6256" width="0.4064" layer="1"/>
+<wire x1="12.3444" y1="1.6256" x2="11.968" y2="2.002" width="0.4064" layer="1"/>
 </signal>
 <signal name="N$3">
 <contactref element="R2" pad="1"/>

@@ -37881,6 +37881,17 @@ DIMMER</text>
 </device>
 </devices>
 </deviceset>
+<deviceset name="NAME_LILT">
+<gates>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 </drawing>

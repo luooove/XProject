@@ -38679,6 +38679,18 @@ DIMMER</text>
 </device>
 </devices>
 </deviceset>
+<deviceset name="NAME_TOUCH">
+<gates>
+<gate name="G$1" symbol="NAME_TOUCH" x="2.54" y="0"/>
+</gates>
+<devices>
+<device name="" package="NAME_TOUCH">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 </drawing>
