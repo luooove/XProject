@@ -39,7 +39,7 @@ void setup(){
 
 void loop() {
 int a=analogRead(2);
-a=a/51+5;
+a=a/150+5;
 pulseWidthScaled = a;
 }
 
