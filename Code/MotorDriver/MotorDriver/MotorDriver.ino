@@ -17,10 +17,17 @@ void loop() {
   if (digitalRead(3) == 1)
   {
     if (digitalRead(1) == 1)
+    {
       digitalWrite(2, HIGH);
+      analogWrite(0, 255 - analogRead(2) / 4); //some problem in this pin
+    }
+
     else
+    {
       digitalWrite(2, LOW);
-    analogWrite(0, analogRead(2) / 4); //some problem in this pin
+      analogWrite(0, analogRead(2) / 4); //some problem in this pin
+    }
+
   }
   else
   {
