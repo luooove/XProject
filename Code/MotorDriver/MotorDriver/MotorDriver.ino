@@ -14,7 +14,7 @@ void setup() {
 
 void loop() {
  // put your main code here, to run repeatedly:
-  if (digitalRead(3) == 1)
+  if (digitalRead(3) == 0)
   {
     if (digitalRead(1) == 1)
     {
